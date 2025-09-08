@@ -4,9 +4,7 @@ project:
   
 book: 
   chapters: 
-    - judul.qmd
     - index.qmd
-    - intro.qmd
     - pengenalan.qmd
     
 lang: id
@@ -21,7 +19,8 @@ format:
   pdf:
     documentclass: scrreprt
     geometry: margin=1in
-    include-in-header: header.tex   # agar garis/warna konsisten
-    keep-tex: true
     pdf-engine: xelatex
     toc-title: "Daftar Isi"
+    include-in-header: header.tex        # matikan \maketitle + paket
+    include-before-body: frontmatter.tex # cover + title + verso
+    keep-tex: true

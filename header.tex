@@ -1,3 +1,12 @@
 % Warna judul agar mirip contoh (beige keemasan halus)
 \usepackage{xcolor}
 \definecolor{titleaccent}{RGB}{183,176,138} % #b7b08a
+
+% Paket yang diperlukan
+\usepackage{pdfpages}   % untuk menyisipkan cover.pdf
+\usepackage{graphicx}   % untuk cover berbentuk gambar (opsional)
+
+% Nonaktifkan title bawaan Pandoc (\maketitle) agar tidak dobel
+\makeatletter
+\AtBeginDocument{\let\maketitle\relax}
+\makeatother
