@@ -1,0 +1,22 @@
+{
+  "index.qmd": {
+    "index.html": "2a16e276",
+    "index.tex": "249087ec"
+  },
+  "intro.qmd": {
+    "intro.html": "9e4c7154",
+    "intro.tex": "0e3e2b5a"
+  },
+  "summary.qmd": {
+    "summary.html": "c2e37f8f"
+  },
+  "references.qmd": {
+    "references.html": "b386ab92"
+  },
+  "judul.qmd": {
+    "judul.html": "81107c09"
+  },
+  "pengenalan.qmd": {
+    "pengenalan.html": "1cc2edcb"
+  }
+}

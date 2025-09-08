@@ -1,0 +1,25 @@
+::: {.content-visible .unnumbered when-format="pdf"}
+\begin{titlepage}
+\centering
+\vspace*{2.5cm}
+
+{\fontsize{22pt}{26pt}\selectfont\bfseries\color{titleaccent} Buku Panduan\\[2mm]}
+{\fontsize{18pt}{22pt}\selectfont\bfseries Penulisan \& Penyusunan Skripsi\par}
+
+\vspace{1.4cm}
+\rule{\linewidth}{0.5pt}\\[-1pt]
+{\large \textbf{Fakultas Psikologi Universitas YARSI}}\par
+\rule{\linewidth}{0.5pt}
+
+\vspace{1.6cm}
+{\large \textbf{Edisi Ke-4}\par}
+
+\vfill
+
+{\large \textbf{Tim Penyusun:}}\par
+{\large Sunu Bagaskara\par}
+{\large Sari Zakiah Akmal\par}
+
+\vspace*{1.5cm}
+\end{titlepage}
+:::

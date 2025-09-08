@@ -1,0 +1,242 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+% Warna judul agar mirip contoh (beige keemasan halus)
+\usepackage{xcolor}
+\definecolor{titleaccent}{RGB}{183,176,138} % #b7b08a
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+
+
+\chapter*{Pendahuluan}\label{pendahuluan}
+\addcontentsline{toc}{chapter}{Pendahuluan}
+
+Dalam perjalanan akademis, penulisan skripsi merupakan salah satu fase
+krusial yang harus dilalui oleh setiap mahasiswa di perguruan tinggi.
+Skripsi tidak hanya berfungsi sebagai salah satu syarat untuk mencapai
+gelar akademik, tetapi juga sebagai bukti kemampuan mahasiswa dalam
+melakukan penelitian yang sistematis dan mendalam terhadap suatu
+masalah. Melalui skripsi, mahasiswa ditantang untuk menerapkan
+pengetahuan yang telah mereka peroleh selama perkuliahan, sekaligus
+mengembangkan kemampuan analisis, kritis, dan ilmiah mereka.
+
+Tujuan dari buku ini adalah untuk memberikan panduan praktis dan teknis
+dalam menulis skripsi. Buku ini dirancang untuk membantu mahasiswa dalam
+merencanakan, melakukan dan menyajikan hasil penelitian mereka dalam
+bentuk skripsi yang sistematis dan logis. Melalui panduan ini, mahasiswa
+diharapkan dapat memahami langkah-langkah penulisan skripsi, mulai dari
+pemilihan topik yang relevan, penyusunan proposal penelitian,
+pengumpulan dan analisis data, hingga penyajian hasil penelitian dan
+kesimpulan.
+
+Penggunaan buku ini disarankan untuk dijadikan sebagai acuan atau
+pedoman selama proses penulisan skripsi. Buku ini disusun dengan bahasa
+yang mudah dipahami dan disertai dengan contoh serta tips praktis yang
+akan sangat membantu dalam memecahkan berbagai kendala yang sering
+dihadapi mahasiswa selama proses penulisan skripsi. Di awal buku,
+pembaca akan dibawa untuk memahami konsep-konsep dasar skripsi dan
+perbedaannya dengan karya ilmiah lainnya. Kemudian, dilanjutkan dengan
+pembahasan secara mendetil mengenai posisi skripsi dalam kurikulum
+Fakultas Psikologi Universitas YARSI. Pembahasannya meliputi persyaratan
+serta prosedur teknis pendaftaran ujian skripsi.
+
+Setelah membahas konsep dasar dan posisi skripsi dalam kurikulum, buku
+ini akan memandu pembaca menyelami prinsip-prinsip penting yang harus
+dikuasai mahasiswa untuk memulai petualangannya dalam menulis skripsi.
+Salah satu kunci sukses dalam penulisan skripsi adalah pemilihan topik.
+Topik yang dipilih tidak hanya harus sesuai dengan minat dan keahlian
+mahasiswa, tetapi juga relevan dengan bidang ilmu pengetahuan yang
+sedang dikaji. Topik yang baik adalah topik yang dapat memberikan
+kontribusi bagi pengembangan ilmu pengetahuan, sekaligus mampu menjawab
+masalah aktual yang ada di masyarakat. Dalam buku ini, pembaca akan
+diajak untuk memahami berbagai pertimbangan dalam memilih topik skripsi,
+serta strategi dalam mengembangkan ide penelitian menjadi sebuah
+proposal penelitian yang solid dan meyakinkan.
+
+Selanjutnya, buku ini juga akan membahas secara sekilas mengenai teknik
+pengumpulan data, baik kualitatif maupun kuantitatif, serta cara-cara
+untuk menganalisis data tersebut. Mahasiswa akan diajarkan bagaimana
+cara menginterpretasikan hasil penelitian dan menyajikannya dalam bentuk
+narasi ilmiah yang koheren dan logis. Selain itu, aspek penting lainnya
+seperti penulisan daftar pustaka, pengutipan sumber, dan penyusunan
+lampiran juga akan dibahas untuk memastikan bahwa skripsi yang
+dihasilkan tidak hanya berkualitas tinggi dari segi konten, tetapi juga
+memenuhi standar akademik yang berlaku.
+
+Dengan memahami isi dari buku ini, diharapkan mahasiswa dapat menavigasi
+proses penulisan skripsi dengan lebih mudah dan efisien, serta pada
+akhirnya dapat menghasilkan skripsi yang tidak hanya memenuhi standar
+akademik, tetapi juga dapat menjadi kontribusi yang berarti bagi
+pengembangan ilmu pengetahuan dan masyarakat.
+
+\hfill\break
+
+\textbf{Tim Penulis},
+
+Agustus 2024
+
+
+
+
+\end{document}

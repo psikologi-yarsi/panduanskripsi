@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+  
+book: 
+  chapters: 
+    - judul.qmd
+    - index.qmd
+    - intro.qmd
+    - pengenalan.qmd
+    
+lang: id
+bibliography: references.bib
+bibliographystyle: apa
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: false
+  pdf:
+    documentclass: scrreprt
+    geometry: margin=1in
+    include-in-header: header.tex   # agar garis/warna konsisten
+    keep-tex: true
+    pdf-engine: xelatex
+    toc-title: "Daftar Isi"
