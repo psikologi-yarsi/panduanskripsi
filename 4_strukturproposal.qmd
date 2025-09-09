@@ -127,6 +127,6 @@ Pada bagian ini, peneliti menuliskan rencana metode yang dipilih untuk menganili
 
 Daftar pustaka harus mencakup semua sumber yang telah Anda kutip dalam proposal. Gunakan gaya sitasi APA terkini yang konsisten dan pastikan semua sumber terdaftar dengan benar. Anda diwajibkan menggunakan reference manager (seperti: Mendeley, EndNote, Zetero, dsb) dalam menuliskan kutipan dan daftar pustaka. Penjelasan lebih lengkap mengenai format penulisan beserta contoh penulisan Daftar Pustaka akan disampaikan dalam bagian tersendiri di Bab 6.
 
-## Kesimpulan  {.unnumbered}
+## Kesimpulan {.unnumbered}
 
 Penyusunan proposal penelitian yang efektif adalah langkah awal yang penting dalam proses penulisan skripsi. Proposal yang baik tidak hanya menyajikan rencana kerja yang logis dan terorganisir, tetapi juga menunjukkan pentingnya dan relevansi penelitian yang diusulkan.

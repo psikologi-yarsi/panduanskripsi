@@ -9,6 +9,8 @@ book:
     - 2_kurikulum.qmd
     - 3_topik.qmd
     - 4_strukturproposal.qmd
+    - 5_strukturskripsi.qmd
+    - 6_teknis.qmd
     
 lang: id
 bibliography: references.bib
