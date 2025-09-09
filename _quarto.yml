@@ -3,6 +3,8 @@ project:
   output-dir: docs
   
 book: 
+  title: "Buku Panduan Penulisan dan Penyusunan Skripsi"
+  edition: 4
   chapters: 
     - index.qmd
     - 1_pengenalan.qmd
@@ -11,7 +13,16 @@ book:
     - 4_strukturproposal.qmd
     - 5_strukturskripsi.qmd
     - 6_teknis.qmd
-    
+  author:
+    - "Sunu Bagaskara"
+    - "Sari Zakiah Akmal"
+  language: id
+  sidebar: 
+    style: docked
+    search: true
+    collapse-level: 0
+  cover-image: Cover 2.png
+  favicon: Cover 2.png
 lang: id
 bibliography: references.bib
 bibliographystyle: apa

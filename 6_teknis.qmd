@@ -2,7 +2,7 @@
 
 Setiap institusi memeiliki standard dan format tersendiri dalam penulisan dan pengetikan laporan penelitian. Dalam hal ini, Fakultas Psikologi YARSI juga memiliki panduan teknis yang berlaku secara umum untuk mahasiswa yang mengerjakan Skrpsi. Panduan teknis ini diharapkan dapat mendorong keseragaman luaran skripsi mahasiswa. Mahasiswa dapat mengunduh *template* format skripsi pada tautan [ini](https://drive.google.com/file/d/1Qxn2S_09NiJaV__Aqd3o9aqdDlvM-dWr/view?usp=sharing).
 
-## 6.1 Panduan Umum Teknis Penulisan Skripsi
+## Panduan Umum Teknis Penulisan Skripsi
 
 ### Media dan Layout Skripsi
 
@@ -113,7 +113,7 @@ Sampul skripsi dibuat dari kertas buffalo atau yang sejenis dan diperkuat dengan
 
 Penempatan tulisan pada sampul luar (yang sama dengan halaman judul), harus memperhatikan keseimbangan jarak margin atas, bawah, kiri, dan kanan. Contoh format *cover* dan halaman judul skripsi dapat dilihat di [Lampiran 6](#_Lampiran_6_Contoh).
 
-## 6.2 Penulisan Bagian Awal Skripsi:
+## Penulisan Bagian Awal Skripsi:
 
 ### Penomoran Halaman
 
@@ -198,7 +198,7 @@ Pengetikan halaman Daftar Isi, Daftar Tabel, Daftar Gambar dan Daftar Lampiran d
 
 Format dan contoh penulisan bagian awal skripsi dapat dilihat pada [Lampiran 7](#_Lampiran_7_Contoh).
 
-## 6.3 Penulisan Bagian Inti Skripsi
+## Penulisan Bagian Inti Skripsi
 
 ### Penomoran Bab
 
