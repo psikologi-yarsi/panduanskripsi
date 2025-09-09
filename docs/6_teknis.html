@@ -38,10 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c6401791a79187d57067e869b1585694.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-78de10016c084c9cf3197e9a8bd26f29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f0ba31c0e9396f107235405795222375.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-78de10016c084c9cf3197e9a8bd26f29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,10 +78,172 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -93,12 +259,36 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Teknis Penulisan dan Format Skripsi</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Buku Panduan Penulisan dan Penyusunan Skripsi</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alihkan mode gelap"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Alihkan mode pembaca">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -155,27 +345,41 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Daftar Isi</h2>
+   
+  <ul>
+  <li><a href="#panduan-umum-teknis-penulisan-skripsi" id="toc-panduan-umum-teknis-penulisan-skripsi" class="nav-link active" data-scroll-target="#panduan-umum-teknis-penulisan-skripsi"><span class="header-section-number">6.1</span> Panduan Umum Teknis Penulisan Skripsi</a>
+  <ul class="collapse">
+  <li><a href="#media-dan-layout-skripsi" id="toc-media-dan-layout-skripsi" class="nav-link" data-scroll-target="#media-dan-layout-skripsi"><span class="header-section-number">6.1.1</span> Media dan Layout Skripsi</a></li>
+  <li><a href="#format-sampul-cover-luar" id="toc-format-sampul-cover-luar" class="nav-link" data-scroll-target="#format-sampul-cover-luar"><span class="header-section-number">6.1.2</span> Format Sampul (Cover) Luar</a></li>
+  </ul></li>
+  <li><a href="#penulisan-bagian-awal-skripsi" id="toc-penulisan-bagian-awal-skripsi" class="nav-link" data-scroll-target="#penulisan-bagian-awal-skripsi"><span class="header-section-number">6.2</span> Penulisan Bagian Awal Skripsi:</a>
+  <ul class="collapse">
+  <li><a href="#penomoran-halaman" id="toc-penomoran-halaman" class="nav-link" data-scroll-target="#penomoran-halaman"><span class="header-section-number">6.2.1</span> Penomoran Halaman</a></li>
+  <li><a href="#penulisan-judul-bagian" id="toc-penulisan-judul-bagian" class="nav-link" data-scroll-target="#penulisan-judul-bagian"><span class="header-section-number">6.2.2</span> Penulisan Judul Bagian</a></li>
+  <li><a href="#penulisan-lembar-pernyataan" id="toc-penulisan-lembar-pernyataan" class="nav-link" data-scroll-target="#penulisan-lembar-pernyataan"><span class="header-section-number">6.2.3</span> Penulisan Lembar Pernyataan</a></li>
+  <li><a href="#penulisan-halaman-persetujuan-pembimbing" id="toc-penulisan-halaman-persetujuan-pembimbing" class="nav-link" data-scroll-target="#penulisan-halaman-persetujuan-pembimbing"><span class="header-section-number">6.2.4</span> Penulisan Halaman Persetujuan Pembimbing</a></li>
+  <li><a href="#penulisan-halaman-pengesahan" id="toc-penulisan-halaman-pengesahan" class="nav-link" data-scroll-target="#penulisan-halaman-pengesahan"><span class="header-section-number">6.2.5</span> Penulisan Halaman Pengesahan</a></li>
+  <li><a href="#penulisan-halaman-kata-pengantar-dan-ucapan-terimakasih" id="toc-penulisan-halaman-kata-pengantar-dan-ucapan-terimakasih" class="nav-link" data-scroll-target="#penulisan-halaman-kata-pengantar-dan-ucapan-terimakasih"><span class="header-section-number">6.2.6</span> Penulisan Halaman Kata Pengantar dan Ucapan Terimakasih</a></li>
+  <li><a href="#penulisan-halaman-abstrak-dan-abstract" id="toc-penulisan-halaman-abstrak-dan-abstract" class="nav-link" data-scroll-target="#penulisan-halaman-abstrak-dan-abstract"><span class="header-section-number">6.2.7</span> Penulisan Halaman Abstrak dan Abstract</a></li>
+  <li><a href="#penulisan-daftar-isi-daftar-tabel-daftar-gambar-dan-daftar-lampiran" id="toc-penulisan-daftar-isi-daftar-tabel-daftar-gambar-dan-daftar-lampiran" class="nav-link" data-scroll-target="#penulisan-daftar-isi-daftar-tabel-daftar-gambar-dan-daftar-lampiran"><span class="header-section-number">6.2.8</span> Penulisan Daftar Isi, Daftar Tabel, Daftar Gambar, dan Daftar Lampiran</a></li>
+  </ul></li>
+  <li><a href="#penulisan-bagian-inti-skripsi" id="toc-penulisan-bagian-inti-skripsi" class="nav-link" data-scroll-target="#penulisan-bagian-inti-skripsi"><span class="header-section-number">6.3</span> Penulisan Bagian Inti Skripsi</a>
+  <ul class="collapse">
+  <li><a href="#penomoran-bab" id="toc-penomoran-bab" class="nav-link" data-scroll-target="#penomoran-bab"><span class="header-section-number">6.3.1</span> Penomoran Bab</a></li>
+  <li><a href="#penomoran-halaman-1" id="toc-penomoran-halaman-1" class="nav-link" data-scroll-target="#penomoran-halaman-1"><span class="header-section-number">6.3.2</span> Penomoran Halaman</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Teknis Penulisan dan Format Skripsi</span></h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <p>Setiap institusi memeiliki standard dan format tersendiri dalam penulisan dan pengetikan laporan penelitian. Dalam hal ini, Fakultas Psikologi YARSI juga memiliki panduan teknis yang berlaku secara umum untuk mahasiswa yang mengerjakan Skrpsi. Panduan teknis ini diharapkan dapat mendorong keseragaman luaran skripsi mahasiswa. Mahasiswa dapat mengunduh <em>template</em> format skripsi pada tautan <a href="https://drive.google.com/file/d/1Qxn2S_09NiJaV__Aqd3o9aqdDlvM-dWr/view?usp=sharing">ini</a>.</p>
@@ -183,12 +387,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="6.1" class="anchored" data-anchor-id="panduan-umum-teknis-penulisan-skripsi"><span class="header-section-number">6.1</span> Panduan Umum Teknis Penulisan Skripsi</h2>
 <section id="media-dan-layout-skripsi" class="level3" data-number="6.1.1">
 <h3 data-number="6.1.1" class="anchored" data-anchor-id="media-dan-layout-skripsi"><span class="header-section-number">6.1.1</span> Media dan Layout Skripsi</h3>
-<section id="layout-kertas" class="level4" data-number="6.1.1.1">
-<h4 data-number="6.1.1.1" class="anchored" data-anchor-id="layout-kertas"><span class="header-section-number">6.1.1.1</span> Layout kertas</h4>
+<section id="layout-kertas" class="level4">
+<h4 class="anchored" data-anchor-id="layout-kertas">Layout kertas</h4>
 <p>Naskah proposal skripsi dan skripsi, baik yang dalam bentuk digital maupun cetak, ditulis di kertas ukuran A4 (210 x 297 mm) dengan orientasi <em>portrait</em>, kecuali pada bagian-bagian tertentu yang membutuhkan penulisan dengan orientasi <em>landscape</em>. Naskah skripsi cetak menggunakan kertas dengan berat 80 gram dan tidak dicetak secara bolak-balik.&nbsp; Batas tepi (<em>margins</em>) pengetikan adalah masing-masing 4 cm untuk tepi atas dan tepi kiri, dan 3 cm untuk tepi kanan dan tepi bawah.</p>
 </section>
-<section id="jarak-baris" class="level4" data-number="6.1.1.2">
-<h4 data-number="6.1.1.2" class="anchored" data-anchor-id="jarak-baris"><span class="header-section-number">6.1.1.2</span> Jarak baris</h4>
+<section id="jarak-baris" class="level4">
+<h4 class="anchored" data-anchor-id="jarak-baris">Jarak baris</h4>
 <ul>
 <li>Penulisan naskah menggunakan jarak antara dua baris dalam kalimat (spasi) dengan ukuran 1,5 (<em>1,5 line spacing</em>). Sementara itu, penggunaan spasi 1 (<em>single line</em> <em>spacing</em>) hanya dipergunakan untuk:</li>
 <li>kutipan langsung lebih dari 3 baris atau &gt; 40 kata;</li>
@@ -207,12 +411,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Alinea baru diketik menjorok kedalam lima (5) ketukan dari marjin kiri teks</li>
 </ul>
 </section>
-<section id="jenis-huruf" class="level4" data-number="6.1.1.3">
-<h4 data-number="6.1.1.3" class="anchored" data-anchor-id="jenis-huruf"><span class="header-section-number">6.1.1.3</span> Jenis Huruf</h4>
+<section id="jenis-huruf" class="level4">
+<h4 class="anchored" data-anchor-id="jenis-huruf">Jenis Huruf</h4>
 <p>Jenis huruf (<em>font</em>) yang digunakan dalam skripsi adalah Times New Romandengan ukuran 12pt, kecuali untuk penulisan judul skripsi di sampul luar dan halaman judul. Jenis dan ukuran <em>font</em> yang digunakan pada sampul dan halaman judul akan dibahas di bagian berikutnya.</p>
 </section>
-<section id="penggunaan-huruf-cetak-miring-italic" class="level4" data-number="6.1.1.4">
-<h4 data-number="6.1.1.4" class="anchored" data-anchor-id="penggunaan-huruf-cetak-miring-italic"><span class="header-section-number">6.1.1.4</span> Penggunaan Huruf Cetak Miring (<em>Italic</em>)</h4>
+<section id="penggunaan-huruf-cetak-miring-italic" class="level4">
+<h4 class="anchored" data-anchor-id="penggunaan-huruf-cetak-miring-italic">Penggunaan Huruf Cetak Miring (<em>Italic</em>)</h4>
 <ol type="a">
 <li>Penggunaan huruf cetak miring (<em>italic</em>) dipakai apabila:</li>
 <li>Menggunakan istilah, kata, atau singkatan yang berasal dari kata asing. Contoh: <em>self efficacy</em>, <em>conscientiousness</em>, dan lain-lain.</li>
@@ -373,6 +577,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

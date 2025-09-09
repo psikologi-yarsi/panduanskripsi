@@ -11,7 +11,7 @@
 \usepackage[paperwidth=8.27in, paperheight=11.69in, top=0.8in,
 bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{2}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -201,6 +201,13 @@ bottom=1in, left=1in, right=1in]{geometry}
 
 
 \title{Buku Panduan Penulisan dan Penyusunan Skripsi}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Edisi ke-4}
 \author{Sunu Bagaskara \and Sari Zakiah Akmal}
 \date{}
 \begin{document}
@@ -209,7 +216,7 @@ bottom=1in, left=1in, right=1in]{geometry}
 
 \renewcommand*\contentsname{Daftar Isi}
 {
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 \tableofcontents
 }
 
@@ -1698,7 +1705,7 @@ dapat mendorong keseragaman luaran skripsi mahasiswa. Mahasiswa dapat
 mengunduh \emph{template} format skripsi pada tautan
 \href{https://drive.google.com/file/d/1Qxn2S_09NiJaV__Aqd3o9aqdDlvM-dWr/view?usp=sharing}{ini}.
 
-\section{6.1 Panduan Umum Teknis Penulisan
+\section{Panduan Umum Teknis Penulisan
 Skripsi}\label{panduan-umum-teknis-penulisan-skripsi}
 
 \subsection{Media dan Layout Skripsi}\label{media-dan-layout-skripsi}
@@ -1918,7 +1925,7 @@ harus memperhatikan keseimbangan jarak margin atas, bawah, kiri, dan
 kanan. Contoh format \emph{cover} dan halaman judul skripsi dapat
 dilihat di \hyperref[_Lampiran_6_Contoh]{Lampiran 6}.
 
-\section{6.2 Penulisan Bagian Awal
+\section{Penulisan Bagian Awal
 Skripsi:}\label{penulisan-bagian-awal-skripsi}
 
 \subsection{Penomoran Halaman}\label{penomoran-halaman}
@@ -2143,7 +2150,7 @@ Lampiran dituliskan dengan ketentuan berikut:
 Format dan contoh penulisan bagian awal skripsi dapat dilihat pada
 \hyperref[_Lampiran_7_Contoh]{Lampiran 7}.
 
-\section{6.3 Penulisan Bagian Inti
+\section{Penulisan Bagian Inti
 Skripsi}\label{penulisan-bagian-inti-skripsi}
 
 \subsection{Penomoran Bab}\label{penomoran-bab}

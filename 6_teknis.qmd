@@ -1,3 +1,11 @@
+---
+format:
+  pdf:
+    number-depth: 3
+  html:
+    number-depth: 3
+---
+
 # Teknis Penulisan dan Format Skripsi
 
 Setiap institusi memeiliki standard dan format tersendiri dalam penulisan dan pengetikan laporan penelitian. Dalam hal ini, Fakultas Psikologi YARSI juga memiliki panduan teknis yang berlaku secara umum untuk mahasiswa yang mengerjakan Skrpsi. Panduan teknis ini diharapkan dapat mendorong keseragaman luaran skripsi mahasiswa. Mahasiswa dapat mengunduh *template* format skripsi pada tautan [ini](https://drive.google.com/file/d/1Qxn2S_09NiJaV__Aqd3o9aqdDlvM-dWr/view?usp=sharing).

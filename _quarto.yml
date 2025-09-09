@@ -4,7 +4,9 @@ project:
   
 book: 
   title: "Buku Panduan Penulisan dan Penyusunan Skripsi"
+  subtitle: "Edisi ke-4"
   edition: 4
+  reader-mode: true
   chapters: 
     - index.qmd
     - 1_pengenalan.qmd
@@ -29,11 +31,19 @@ bibliographystyle: apa
 
 format:
   html:
-    theme: default
+    theme:
+      light: journal
+      dark: journal
     css: styles.css
-    toc: false
+    toc: true
+    toc-depth: 3
+    breadcrumb: true
+    title-block-banner: true
   pdf:
     documentclass: scrbook
+    toc: true
+    toc-depth: 2
+    number-depth: 2
     geometry: "paperwidth=8.27in, paperheight=11.69in, top=0.8in, bottom=1in, left=1in, right=1in"
     pdf-engine: lualatex
     toc-title: "Daftar Isi"
