@@ -214,7 +214,7 @@ Penomoran Bab dalam bagian inti skripsi ditulis menggunakan angka Arab diikiuti 
 
 Penomoran Anak Sub Bab dengan menggunakan angka Arab, diikuti dengan tanda titik dan diletakkan di rata kiri dari halaman. Judul Anak Sub Bab (*heading* level 3) ditulis dengan menggunakan kapitalisasi huruf awal dengan jenis huruf tebal. Penomoran Anak-Anak Sub Bab dengan menggunakan huruf kecil, diikuti dengan tanda titik. Judul Anak-Anak Sub Bab (*heading* level 4) ditulis dengan kapitalis huruf awal kata, dan menggunakan indensi tunggal. Jenis huruf yang digunakan regular. Penulisan *heading* 5 dan seterusnya tidak mengunakan menggunakan format penomoran, judul bab ditulis rata kiri dan cetak miring (*italic*) diakhiri dengan titik.
 
-Penulisan setiap judul bab dan anak bab menggunakan menu *heading styles* pada micosoft word dengan mengikuti ketentuan *heading* dan *subheading* *level* menurut Format APA. Terdapat lima *level heading* (sub bab) menurut APA: Level 1 (Bab utama), Level 2 (anak bab), Level 3 (anak bab dari level 2) dan seterusnya hinggal Level 5. Penggunaan heading level pada tulisan bergantung pada kompleksitas tulisan. Untuk memahami lebih lanjut mengenai format tiap level menurut Format APA dan contohnya, lihat Tabel 1.
+Penulisan setiap judul bab dan anak bab menggunakan menu *heading styles* pada micosoft word dengan mengikuti ketentuan *heading* dan *subheading* *level* menurut Format APA. Terdapat lima *level heading* (sub bab) menurut APA: Level 1 (Bab utama), Level 2 (anak bab), Level 3 (anak bab dari level 2) dan seterusnya hinggal Level 5. Penggunaan heading level pada tulisan bergantung pada kompleksitas tulisan. Untuk memahami lebih lanjut mengenai format tiap level menurut Format APA dan contohnya, lihat @tbl-headinglevel.
 
 ### Penomoran Halaman
 
@@ -223,3 +223,27 @@ Pemberian nomor pada bagian inti skripsi ditetapkan sebagai berikut:
 a.  Penomoran bagian inti skripsi, mulai dari Bab 1 Pendahuluan sampai dengan Bab 6 Kesimpulan dan Saran, menggunakan angka Arab.
 b.  Pada tiap halaman yang memiliki judul bab, mulai dari Bab 1 Pendahuluan hingga Bab 6 Kesimpulan dan Saran, nomor halaman diletakkan pada bagian bawah (*footer*) persis di tengah, berjarak tiga spasi dari marjin bawah (baris akhir teks pada halaman itu)
 c.  Nomor halaman selain yang dijelaskan pada poin b di atas diletakkan pada bagian atas sebelah kanan, berjarak tiga spasi dari margin atas (baris pertama teks pada halaman itu) dan angka terakhir nomor halaman itu lurus dengan *margin* kanan.
+
+::: {#tbl-headinglevel tbl-colwidths="[15,85]"}
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| Level                             | Format                                                                                                                                        |
++:=================================:+:==============================================================================================================================================+
+| **1**                             | **Ditulis di Tengah, Tebal, *Title Case***                                                                                                    |
+|                                   |                                                                                                                                               |
+|                                   | Teks dimulai sebagai paragraf baru.                                                                                                           |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| **2**                             | **Rata Kiri, Tebal, *Title Case***                                                                                                            |
+|                                   |                                                                                                                                               |
+|                                   | Teks dimulai sebagai paragraf baru.                                                                                                           |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| **3**                             | ***Rata Kiri, Tebal, Miring, Title Case***                                                                                                    |
+|                                   |                                                                                                                                               |
+|                                   | Teks dimulai sebagai paragraf baru.                                                                                                           |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| **4**                             | **Berinden, Tebal, *Title Case*, Diakhiri dengan Titik.** Teks dimulai pada baris yang sama dan berlanjut sebagai paragraf biasa.             |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+| **5**                             | ***Berinden, Tebal, Miring, Title Case*****, Diakhiri dengan Titik.** Teks dimulai pada baris yang sama dan berlanjut sebagai paragraf biasa. |
++-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Format dan Contoh Penulisan Heading Level Format APA
+:::

@@ -2,6 +2,7 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
   indonesian,
@@ -196,7 +197,11 @@ bottom=1in, left=1in, right=1in]{geometry}
   pdftitle={Buku Panduan Penulisan dan Penyusunan Skripsi},
   pdfauthor={Sunu Bagaskara; Sari Zakiah Akmal},
   pdflang={id},
-  hidelinks,
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={blue},
+  urlcolor={blue},
   pdfcreator={LaTeX via pandoc}}
 
 
@@ -216,6 +221,7 @@ bottom=1in, left=1in, right=1in]{geometry}
 
 \renewcommand*\contentsname{Daftar Isi}
 {
+\hypersetup{linkcolor=}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
@@ -1279,38 +1285,38 @@ utama, yaitu Bagian Awal, Bagian Inti, dan Bagian Akhir.
 Bagian awal memuat sejumlah informasi dasar mengenai skripsi, yang
 mencakup:
 
-\subsection{Halaman Judul dan
+\subsubsection{Halaman Judul dan
 Subjudul}\label{halaman-judul-dan-subjudul}
 
 Halaman ini menyajikan informasi penting tentang skripsi, termasuk judul
 lengkap penelitian, nama penulis, nama dan lokasi afiliasi
 institusional, dan tanggal penyelesaian skripsi.
 
-\subsection{Halaman Pernyataan}\label{halaman-pernyataan}
+\subsubsection{Halaman Pernyataan}\label{halaman-pernyataan}
 
 Halaman ini berisi pernyataan bahwa skripsi ini merupakan karya orisinal
 dari penulis sebagai syarat meraih gelar sarjana psikologi.
 
-\subsection{Halaman Persetujuan
+\subsubsection{Halaman Persetujuan
 Pembimbing}\label{halaman-persetujuan-pembimbing}
 
 Halaman ini berisi informasi yang pada prinsipnya membuktikan bahwa
 naskah skripsi telah disetujui oleh para Pembimbing Skripsi untuk
 diserahkan kepada program studi atau fakultas sebagai dokumen resmi.
 
-\subsection{Halaman Pengesahan}\label{halaman-pengesahan}
+\subsubsection{Halaman Pengesahan}\label{halaman-pengesahan}
 
 Halaman ini berfungsi sebagai bukti bahwa skripsi telah disetujui dan
 disahkan oleh pembimbing dan komite penguji.
 
-\subsection{Halaman Kata Pengantar}\label{halaman-kata-pengantar}
+\subsubsection{Halaman Kata Pengantar}\label{halaman-kata-pengantar}
 
 Di bagian ini, peneliti memberikan latar belakang singkat tentang
 penelitian, motivasi, dan proses yang dilalui selama penelitian. Kata
 pengantar juga mencerminkan penghargaan penulis terhadap kesempatan dan
 pengalaman belajar selama proses penelitian.
 
-\subsection{Halaman Ucapan Terima
+\subsubsection{Halaman Ucapan Terima
 Kasih}\label{halaman-ucapan-terima-kasih}
 
 Halaman ini memuat apresiasi kepada individu, kelompok, atau institusi
@@ -1319,7 +1325,7 @@ penelitian. Pada intinya, halam ini berisi ucapan terima kasih peneliti
 kepada pembimbing, anggota keluarga, teman, kolega, dan lain-lain yang
 telah memberikan kontribusi signifikan terhadap penyelesaian skripsi.
 
-\subsection{Halaman Abstrak}\label{halaman-abstrak}
+\subsubsection{Halaman Abstrak}\label{halaman-abstrak}
 
 Bagian Abstrak dalam sebuah skripsi memiliki beberapa fungsi penting
 yang bertujuan untuk memberikan pembaca gambaran singkat dan esensial
@@ -1343,12 +1349,12 @@ yang tidak perlu dan detail berlebihan. Terakhir, ikuti struktur logis
 yang mencerminkan alur skripsi, mulai dari tujuan, metode, hasil, hingga
 kesimpulan.
 
-\subsection{Halaman Abstract}\label{halaman-abstract}
+\subsubsection{Halaman Abstract}\label{halaman-abstract}
 
 Halaman ini merupakan terjemahan abstrak yang telah disampaikan pada
 Halaman Abstrak, beserta kata-kata kuncinya.
 
-\subsection{Halaman Daftar Isi}\label{halaman-daftar-isi}
+\subsubsection{Halaman Daftar Isi}\label{halaman-daftar-isi}
 
 Bagian ini berfungsi untuk memberikan gambaran keseluruhan struktur
 skripsi dan memudahkan navigasi dokumen. Daftar isi mencantumkan judul
@@ -1357,18 +1363,18 @@ diurutkan sesuai dengan penampilan dalam teks, termasuk daftar tabel,
 daftar gambar, dan lampiran, masing-masing dengan nomor halaman yang
 sesuai.
 
-\subsection{Halaman Daftar Tabel}\label{halaman-daftar-tabel}
+\subsubsection{Halaman Daftar Tabel}\label{halaman-daftar-tabel}
 
 Bagian ini berisi daftar seluruh tabel yang ditampilkan dalam bagian
 inti skripsi.
 
-\subsection{Halaman Daftar Gambar}\label{halaman-daftar-gambar}
+\subsubsection{Halaman Daftar Gambar}\label{halaman-daftar-gambar}
 
 Halaman ini menampilkan daftar seluruh tabel yang digunakan dalam bagian
 inti skripsi. Dalam hal ini, gambar mencakup foto, ilustrasi, grafik,
 dsb.
 
-\subsection{Halaman Daftar Lampiran}\label{halaman-daftar-lampiran}
+\subsubsection{Halaman Daftar Lampiran}\label{halaman-daftar-lampiran}
 
 Halaman ini menampilkan daftar seluruh lampiran yang terdapat pada
 bagian akhir skripsi.
@@ -1391,7 +1397,7 @@ Bab 4 hingga Bab 6, yaitu Bab Hasil dan Pembahasan, Bab Hasil Penelitian
 Menurut Tinjauan Islam, dan Bab Kesimpulan dan Saran. Berikut ini adalah
 struktur penulisan Bab 4:
 
-\subsection{Bab 4 Hasil dan
+\subsubsection{Bab 4 Hasil dan
 Pembahasan}\label{bab-4-hasil-dan-pembahasan}
 
 Struktur penulisan Bab Hasil dan Pembahasan dalam skripsi penting untuk
@@ -1403,7 +1409,7 @@ sejumlah sub-bab. Struktur penulisan setiap sub-bab tergantung dari
 metode analisis data yang digunakan, utamanya terdapat perbedaan antara
 metode kuantitatif dan metode kualitatif.
 
-\subsubsection{Metode kuantitatif}\label{metode-kuantitatif}
+\paragraph{Metode kuantitatif}\label{metode-kuantitatif}
 
 Penyajian hasil dalam riset kuantitatif harus langsung ke poin dan
 berbasis data, memungkinkan pembaca untuk dengan jelas memahami temuan
@@ -1483,7 +1489,7 @@ variabel berdasarkan data demografi. Misalnya, peneltii ingin
 menjelaskan lebih lanjut bagaimana perbedaan kekuatan korelasi antara
 variabel X dan variabel Y berdasarkan jenis kelamin partisipan.
 
-\subsubsection{Metode kualitatif}\label{metode-kualitatif}
+\paragraph{Metode kualitatif}\label{metode-kualitatif}
 
 Penyajian hasil dalam riset kualitatif harus menyediakan narasi yang
 kohesif dan mendalam tentang data, menyoroti tema penting dan pola yang
@@ -1576,7 +1582,7 @@ ajaran agama Islam yang telah diperoleh peneliti sepanjang masa
 perkuilahan. Relevansi hasil penelitian dengan nilai-nilai dan ajaran
 agama Islam dipaparkan pada Bab Hasil Penelitian Menurut Tinjauan Islam.
 
-\subsection{Bab 5 Hasil Penelitian Menurut Tinjauan
+\subsubsection{Bab 5 Hasil Penelitian Menurut Tinjauan
 Islam}\label{bab-5-hasil-penelitian-menurut-tinjauan-islam}
 
 Bab ini pada intinya berisi teori yang membahas varibel penelitian dari
@@ -1590,7 +1596,7 @@ peneliti juga perlu menunjukkan bagaimana implikasi temuan penelitian
 dalam kaitannya dengan praktik-praktik kehidupan sehari-hari yang
 sejalan dengan tuntunan agama Islam.
 
-\subsection{Bab 6 Kesimpulan dan
+\subsubsection{Bab 6 Kesimpulan dan
 Saran}\label{bab-6-kesimpulan-dan-saran}
 
 Penulisan bagian inti skripsi diakhiri dengan Bab Kesimpulan dan Saran.
@@ -1601,7 +1607,7 @@ panduan untuk aplikasi praktis atau penelitian masa depan. Penulisan Bab
 Kesimpulan dan Saran pada umumnya dapat dipaparkan dalam struktur
 berikut ini:
 
-\subsubsection{Kesimpulan}\label{kesimpulan-3}
+\paragraph{Kesimpulan}\label{kesimpulan-3}
 
 \begin{itemize}
 \tightlist
@@ -1619,7 +1625,7 @@ berikut ini:
   dalam konteks teori yang relevan atau aplikasi praktis.
 \end{itemize}
 
-\subsubsection{Saran}\label{saran}
+\paragraph{Saran}\label{saran}
 
 \begin{itemize}
 \tightlist
@@ -1648,7 +1654,7 @@ berikut ini:
 Bagian akhir dalam sebuah skripsi secara umum memuat dua sub-bagian,
 yaitu Daftar Pustaka dan Lampiran.
 
-\subsection{Daftar Pustaka}\label{daftar-pustaka-1}
+\subsubsection{Daftar Pustaka}\label{daftar-pustaka-1}
 
 Seperti yang telah dijelaskan sebelumnya, Daftar Pustaka memuat semua
 rujukan yang dijadikan sumber informasi dan dikutip dalam penulisan
@@ -1663,7 +1669,7 @@ kutipan dan daftar pustaka.~ Format penulisan Daftar Pustaka berdasarkan
 jenis sumber informasi yang dikutip dijelaskan secara lebih rinci di
 Bagian 6.4.
 
-\subsection{Lampiran}\label{lampiran}
+\subsubsection{Lampiran}\label{lampiran}
 
 Bagian Lampiran dalam skripsi berfungsi untuk menyediakan informasi
 tambahan yang mendukung penelitian tetapi terlalu rinci atau luas untuk
@@ -2182,7 +2188,7 @@ styles} pada micosoft word dengan mengikuti ketentuan \emph{heading} dan
 (anak bab), Level 3 (anak bab dari level 2) dan seterusnya hinggal Level
 5. Penggunaan heading level pada tulisan bergantung pada kompleksitas
 tulisan. Untuk memahami lebih lanjut mengenai format tiap level menurut
-Format APA dan contohnya, lihat Tabel 1.
+Format APA dan contohnya, lihat Tabel~\ref{tbl-headinglevel}.
 
 \subsection{Penomoran Halaman}\label{penomoran-halaman-1}
 
@@ -2206,6 +2212,46 @@ Pemberian nomor pada bagian inti skripsi ditetapkan sebagai berikut:
   (baris pertama teks pada halaman itu) dan angka terakhir nomor halaman
   itu lurus dengan \emph{margin} kanan.
 \end{enumerate}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8500}}@{}}
+\caption{Format dan Contoh Penulisan Heading Level Format
+APA}\label{tbl-headinglevel}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+Level
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Format
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+Level
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Format
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{1} & \textbf{Ditulis di Tengah, Tebal, \emph{Title Case}}
+
+Teks dimulai sebagai paragraf baru. \\
+\textbf{2} & \textbf{Rata Kiri, Tebal, \emph{Title Case}}
+
+Teks dimulai sebagai paragraf baru. \\
+\textbf{3} & \textbf{\emph{Rata Kiri, Tebal, Miring, Title Case}}
+
+Teks dimulai sebagai paragraf baru. \\
+\textbf{4} & \textbf{Berinden, Tebal, \emph{Title Case}, Diakhiri dengan
+Titik.} Teks dimulai pada baris yang sama dan berlanjut sebagai paragraf
+biasa. \\
+\textbf{5} & \textbf{\emph{Berinden, Tebal, Miring, Title Case},
+Diakhiri dengan Titik.} Teks dimulai pada baris yang sama dan berlanjut
+sebagai paragraf biasa. \\
+\end{longtable}
 
 
 \backmatter

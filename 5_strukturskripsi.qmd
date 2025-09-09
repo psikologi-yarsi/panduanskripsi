@@ -6,53 +6,53 @@ Bab ini akan membahas mengenai konsep dasar dan struktur pemaparan dan penulisan
 
 Bagian awal memuat sejumlah informasi dasar mengenai skripsi, yang mencakup:
 
-### Halaman Judul dan Subjudul
+#### Halaman Judul dan Subjudul
 
 Halaman ini menyajikan informasi penting tentang skripsi, termasuk judul lengkap penelitian, nama penulis, nama dan lokasi afiliasi institusional, dan tanggal penyelesaian skripsi.
 
-### Halaman Pernyataan
+#### Halaman Pernyataan
 
 Halaman ini berisi pernyataan bahwa skripsi ini merupakan karya orisinal dari penulis sebagai syarat meraih gelar sarjana psikologi.
 
-### Halaman Persetujuan Pembimbing
+#### Halaman Persetujuan Pembimbing
 
 Halaman ini berisi informasi yang pada prinsipnya membuktikan bahwa naskah skripsi telah disetujui oleh para Pembimbing Skripsi untuk diserahkan kepada program studi atau fakultas sebagai dokumen resmi.
 
-### Halaman Pengesahan
+#### Halaman Pengesahan
 
 Halaman ini berfungsi sebagai bukti bahwa skripsi telah disetujui dan disahkan oleh pembimbing dan komite penguji.
 
-### Halaman Kata Pengantar
+#### Halaman Kata Pengantar
 
 Di bagian ini, peneliti memberikan latar belakang singkat tentang penelitian, motivasi, dan proses yang dilalui selama penelitian. Kata pengantar juga mencerminkan penghargaan penulis terhadap kesempatan dan pengalaman belajar selama proses penelitian.
 
-### Halaman Ucapan Terima Kasih
+#### Halaman Ucapan Terima Kasih
 
 Halaman ini memuat apresiasi kepada individu, kelompok, atau institusi yang memberikan dukungan, bantuan, dan inspirasi selama proses penelitian. Pada intinya, halam ini berisi ucapan terima kasih peneliti kepada pembimbing, anggota keluarga, teman, kolega, dan lain-lain yang telah memberikan kontribusi signifikan terhadap penyelesaian skripsi.
 
-### Halaman Abstrak
+#### Halaman Abstrak
 
 Bagian Abstrak dalam sebuah skripsi memiliki beberapa fungsi penting yang bertujuan untuk memberikan pembaca gambaran singkat dan esensial tentang penelitian secara keseluruhan. Pada bagian ini, peneliti menyajikan poin utama dari setiap bagian penting: pendahuluan, metode penelitian, hasil, dan kesimpulan. Tujuan utama Abstrak adalah memungkinkan pembaca untuk memperoleh pemahaman dasar tentang tujuan penelitian, cara penelitian dilaksanakan, temuan utama, dan implikasi dari temuan tersebut. Selain itu, Abstrak juga bertujuan untuk memastikan bahwa pembaca dapat dengan cepat mengidentifikasi relevansi dan cakupan penelitian tanpa harus membaca seluruh dokumen.
 
 Untuk dapat menjangkau kalangan pembaca yang luas, maka Abstrak perlu ditulis dalam dua bahasa, yaitu Bahasa Indonesia, dan Bahasa Inggris. Terdapat sejumlah hal penting yang perlu dipertimbangkan peneliti ketika menuliskan Abstrak. Pertama, pastikan abstrak mencerminkan isi skripsi secara akurat, mencakup semua elemen penting penelitian. Kemudian, sajikan informasi dengan jelas dan ringkas, biasanya dalam 250-300 kata. Selain itu, gunakan bahasa yang jelas dan langsung, menghindari jargon yang tidak perlu dan detail berlebihan. Terakhir, ikuti struktur logis yang mencerminkan alur skripsi, mulai dari tujuan, metode, hasil, hingga kesimpulan.
 
-### Halaman Abstract
+#### Halaman Abstract
 
 Halaman ini merupakan terjemahan abstrak yang telah disampaikan pada Halaman Abstrak, beserta kata-kata kuncinya.
 
-### Halaman Daftar Isi
+#### Halaman Daftar Isi
 
 Bagian ini berfungsi untuk memberikan gambaran keseluruhan struktur skripsi dan memudahkan navigasi dokumen. Daftar isi mencantumkan judul bab dan sub-bab beserta nomor halamannya. Daftar judul bab dan sub-bab diurutkan sesuai dengan penampilan dalam teks, termasuk daftar tabel, daftar gambar, dan lampiran, masing-masing dengan nomor halaman yang sesuai.
 
-### Halaman Daftar Tabel
+#### Halaman Daftar Tabel
 
 Bagian ini berisi daftar seluruh tabel yang ditampilkan dalam bagian inti skripsi.
 
-### Halaman Daftar Gambar
+#### Halaman Daftar Gambar
 
 Halaman ini menampilkan daftar seluruh tabel yang digunakan dalam bagian inti skripsi. Dalam hal ini, gambar mencakup foto, ilustrasi, grafik, dsb.
 
-### Halaman Daftar Lampiran
+#### Halaman Daftar Lampiran
 
 Halaman ini menampilkan daftar seluruh lampiran yang terdapat pada bagian akhir skripsi.
 
@@ -60,11 +60,11 @@ Halaman ini menampilkan daftar seluruh lampiran yang terdapat pada bagian akhir 
 
 Fakultas Psikologi Universitas YARSI menggunakan format penulisan bagian inti skripsi dengan struktur 6 bab. Secara umum, isi Bab 1 hingga Bab 3 pada skripsi merupakan perbaikan dan pengembangan dari apa yang telah dipaparkan dalam proposal penelitian yang telah diuji di MK Seminar Proposal Skripsi. Dengan demikian, penjelasan mengenai cakupan penulisan ketiga bab tersebut kurang lebih sama dengan yang sudah dijelaskan pada bab sebelumnya (Penyusunan Proposal Penelitian). Hanya saja, proposal penelitian menggunakan gaya penulisan yang lebih berfokus pada rencana penelitian (misalnya, lebih sering menggunakan kata “akan”, terutama di penulisan Bab Metode), sedangkan naskah skripsi berfokus pada realisasi aktual dari apa yang telah dikerjakan dalam penelitian. Oleh karena itu, bagian ini hanya akan membahas mengenai struktur penulisan Bab 4 hingga Bab 6, yaitu Bab Hasil dan Pembahasan, Bab Hasil Penelitian Menurut Tinjauan Islam, dan Bab Kesimpulan dan Saran. Berikut ini adalah struktur penulisan Bab 4:
 
-### Bab 4 Hasil dan Pembahasan
+#### Bab 4 Hasil dan Pembahasan
 
 Struktur penulisan Bab Hasil dan Pembahasan dalam skripsi penting untuk menyajikan temuan penelitian dan menginterpretasikannya dalam konteks literatur yang ada, teori yang relevan, dan implikasi praktis. Bab ini dibagi menjadi dua bagian utama: bagian pertama untuk Hasil dan bagian kedua untuk Pembahasan. Penulisan Bab Hasil dan Pembahasan terdiri dari sejumlah sub-bab. Struktur penulisan setiap sub-bab tergantung dari metode analisis data yang digunakan, utamanya terdapat perbedaan antara metode kuantitatif dan metode kualitatif.
 
-#### Metode kuantitatif
+##### Metode kuantitatif
 
 Penyajian hasil dalam riset kuantitatif harus langsung ke poin dan berbasis data, memungkinkan pembaca untuk dengan jelas memahami temuan penelitian sebelum beranjak ke Sub-bab Pembahasan, di mana temuan akan diinterpretasikan dalam konteks yang lebih luas.
 
@@ -84,7 +84,7 @@ Kedua, peneliti harus dapat menjelaskan kesimpulan yang diperoleh dari uji hipot
 
 **Analisis tambahan**: Peneliti dapat memperkaya bagian hasil tambahan dengan melakukan analisis tambahan. Analisis ini dapat dilakukan melalui uji statistik terhadap dimensi-dimensi variabel penelitian atau dengan membandingkan bagaimana kekuatan hubungan antar variabel berdasarkan data demografi. Misalnya, peneltii ingin menjelaskan lebih lanjut bagaimana perbedaan kekuatan korelasi antara variabel X dan variabel Y berdasarkan jenis kelamin partisipan.
 
-#### Metode kualitatif
+##### Metode kualitatif
 
 Penyajian hasil dalam riset kualitatif harus menyediakan narasi yang kohesif dan mendalam tentang data, menyoroti tema penting dan pola yang muncul, dan menunjukkan bagaimana temuan tersebut berkontribusi terhadap pemahaman fenomena yang diteliti.
 
@@ -111,21 +111,21 @@ Baik riset yang menggunakan pendekatan kuantitatif maupun kualitatif, keduanya m
 
 Mengingat bahwa Universitas YARSI merupakan perguruan tinggi yang bernafaskan nilai-nilai keislaman, maka hasil penelitian yang dilaporkan dalam skripsi juga harus dapat dijelaskan dalam relevansinya dengan ajaran agama Islam yang telah diperoleh peneliti sepanjang masa perkuilahan. Relevansi hasil penelitian dengan nilai-nilai dan ajaran agama Islam dipaparkan pada Bab Hasil Penelitian Menurut Tinjauan Islam.
 
-### Bab 5 Hasil Penelitian Menurut Tinjauan Islam
+#### Bab 5 Hasil Penelitian Menurut Tinjauan Islam
 
 Bab ini pada intinya berisi teori yang membahas varibel penelitian dari sudut pandang Islam. Bagian ini juga dilengkapi dengan analisis variabel berdasarkan teori padangan Islam yang telah dipaparkan. Dalam uraiannya, peneliti harus dapat menggambarkan pentingnya penelitian dalam relevansinya dengan nilai-nilai keislaman dan mampu menunjukkan kaitan antara hasil penelitian dengan ajaran-ajaran agama Islam, baik itu yang bersumber dari Al-Quran, Hadits, maupun yang lainnya. Selain itu, peneliti juga perlu menunjukkan bagaimana implikasi temuan penelitian dalam kaitannya dengan praktik-praktik kehidupan sehari-hari yang sejalan dengan tuntunan agama Islam.
 
-### Bab 6 Kesimpulan dan Saran
+#### Bab 6 Kesimpulan dan Saran
 
 Penulisan bagian inti skripsi diakhiri dengan Bab Kesimpulan dan Saran. Bab ini merupakan penutup dari skripsi yang merangkum seluruh penelitian dan memberikan rekomendasi berdasarkan temuan. Selain itu, bab ini penting karena menyediakan sintesis dari penelitian dan memberikan panduan untuk aplikasi praktis atau penelitian masa depan. Penulisan Bab Kesimpulan dan Saran pada umumnya dapat dipaparkan dalam struktur berikut ini:
 
-#### Kesimpulan
+##### Kesimpulan
 
 -   **Ringkasan temuan**: Mulailah dengan ringkasan singkat dari temuan penelitian utama. Uraikan bagaimana temuan ini menjawab pertanyaan penelitian atau hipotesis yang diajukan di awal.
 -   **Signifikansi temuan**: Jelaskan signifikansi dari temuan penelitian terhadap bidang studi. Soroti bagaimana penelitian Anda berkontribusi pada pengetahuan yang ada atau praktik di lapangan.
 -   **Interpretasi temuan**: Berikan interpretasi Anda tentang apa arti temuan ini. Diskusikan makna lebih lanjut dari hasil penelitian dalam konteks teori yang relevan atau aplikasi praktis.
 
-#### Saran
+##### Saran
 
 -   **Saran praktis**: Berdasarkan temuan penelitian, buatlah saran tentang bagaimana hasil penelitian dapat diterapkan dalam praktik, baik itu dalam pendidikan, industri, kebijakan publik, atau area lainnya.
 -   **Saran untuk penelitian selanjutnya atau pengembangan penelitian**: Pada Sub-bab Pembahasan yang telah dituliskan sebelumnya, peneliti mengidentifikasi celah dalam penelitian. Berdasarkan berbagai keterbatasan yang telah diidentifikasi, di bagian ini peneliti dapat menyampaikan saran untuk studi masa depan. Diskusikan pertanyaan penelitian baru yang muncul dari temuan Anda, serta metode atau pendekatan yang mungkin digunakan untuk menjawabnya.
@@ -135,11 +135,11 @@ Penulisan bagian inti skripsi diakhiri dengan Bab Kesimpulan dan Saran. Bab ini 
 
 Bagian akhir dalam sebuah skripsi secara umum memuat dua sub-bagian, yaitu Daftar Pustaka dan Lampiran.
 
-### Daftar Pustaka
+#### Daftar Pustaka
 
 Seperti yang telah dijelaskan sebelumnya, Daftar Pustaka memuat semua rujukan yang dijadikan sumber informasi dan dikutip dalam penulisan naskah skripsi. Setiap kutipan dalam teks harus dicantumkan dalam Daftar Pustaka, begitu pula sebaliknya. Perlu diingat bahwa sumber online harus dikutip dengan cara yang sama seperti sumber cetak.  Pastikan juga untuk mengutip sumber semua perangkat lunak dan sertakan informasi referensi lengkap. Daftar Pustaka harus ditulis dalam format sesuai dengan gaya APA terkini. Anda diwajibkan menggunakan perangkat lunak *reference manager* (seperti: Mendeley, EndNote, Zetero, dsb) dalam menuliskan kutipan dan daftar pustaka.  Format penulisan Daftar Pustaka berdasarkan jenis sumber informasi yang dikutip dijelaskan secara lebih rinci di Bagian 6.4.
 
-### Lampiran
+#### Lampiran
 
 Bagian Lampiran dalam skripsi berfungsi untuk menyediakan informasi tambahan yang mendukung penelitian tetapi terlalu rinci atau luas untuk dimasukkan dalam teks utama skripsi. Lampiran memungkinkan penulis untuk menjaga kelancaran dan fokus narasi dalam teks utama sambil tetap menyediakan data penting atau dokumen tambahan bagi pembaca yang tertarik. Beberapa jenis materi yang dapat ditampilkan dalam lampiran di antaranya adalah: instrumen penelitian (misalnya, lembar *informed consent*, kuesioner, struktur wawancara, *behavior checklist*), hasil penghitungan statistik, surat keterangan kelayakan etik penelitian dan bukti proses review instrumen pengambilan yang dilakukan melalui P3TPK (Pusat Psikometri, Penelitian dan Terapan Psikologi Kesehatan). Panduan penulisan bagian Lampiran dapat dibaca secara lebih lengkap di Bab 6.
 

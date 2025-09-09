@@ -37,6 +37,7 @@ format:
     css: styles.css
     toc: true
     toc-depth: 3
+    number-depth: 2
     breadcrumb: true
     title-block-banner: true
   pdf:
@@ -53,3 +54,6 @@ format:
     #classoption:
      # - open=any             # cegah sisipan halaman kosong "openright"
     #  - titlepage=false      # judul bab & isi di halaman yang sama
+    linkcolor: blue
+    urlcolor: blue
+    citecolor: blue
