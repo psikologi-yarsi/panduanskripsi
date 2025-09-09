@@ -1,0 +1,132 @@
+# Struktur Proposal Penelitian
+
+Penyusunan proposal penelitian merupakan fase fundamental dalam perjalanan akademis setiap mahasiswa. Proposal penelitian berfungsi sebagai rencana kerja yang menguraikan apa yang akan diteliti, bagaimana penelitian akan dilakukan, serta mengapa penelitian tersebut penting. Proposal tidak hanya berfungsi sebagai peta jalan untuk penelitian yang akan dilakukan tetapi juga sebagai alat untuk meyakinkan pembimbing dan reviewer tentang nilai dan kelayakan penelitian. Bab ini akan membahas tentang struktur proposal penelitian yang efektif, pentingnya review literatur, dan pemilihan metode penelitian yang sesuai.
+
+Proposal penelitian yang baik harus menyajikan informasi yang cukup untuk meyakinkan pembaca tentang kepentingan dan kelayakan penelitian yang diusulkan. Struktur proposal umumnya meliputi:
+
+## Judul Penelitian
+
+Judul haruslah singkat, informatif, dan menggambarkan esensi dari penelitian. Sebuah judul yang baik akan langsung memberikan gambaran tentang topik penelitian serta indikasi metodologi yang digunakan. Contoh penulisan Judul Penelitian: “Dampak Media Sosial terhadap Kesejahteraan Psikologis Remaja”
+
+## Bab 1 Pendahuluan
+
+Bab Pendahuluan dalam sebuah skripsi bertujuan untuk memberikan konteks, memperkenalkan topik penelitian, dan membangun dasar bagi pembaca mengenai pentingnya penelitian tersebut. Secara spesifik, tujuan dari Bab Pendahuluan meliputi:
+
+1.  Memperkenalkan topik: Memberikan latar belakang yang memungkinkan pembaca memahami topik penelitian dan konteksnya dalam literatur yang ada atau masalah praktis yang ditangani.
+2.  Menyatakan masalah penelitian: Mendefinisikan masalah penelitian dengan jelas, menunjukkan celah dalam pengetahuan yang ada yang akan ditangani oleh penelitian.
+3.  Menyatakan tujuan dan manfaat penelitian: Menguraikan tujuan penelitian secara spesifik dan menyajikan manfaat penelitian yang akan dihasilkan melalui studi tersebut.
+4.  Menjelaskan signifikansi penelitian: Menggarisbawahi pentingnya penelitian ini bagi bidang ilmu pengetahuan, praktik industri, atau masyarakat pada umumnya, dan bagaimana penelitian ini akan berkontribusi terhadap pengetahuan yang ada.
+5.  Menguraikan ruang lingkup dan batasan: Menjelaskan ruang lingkup penelitian dan batasan yang diterapkan untuk memfokuskan studi, termasuk apa yang tidak akan ditangani oleh penelitian.
+
+Pada umumnya, struktur penulisan Bab Pendahuluan mencakup empat sub-bab, yaitu:
+
+### Latar Belakang Masalah {.unnumbered}
+
+Bagian ini merupakan kesempatan untuk "bercerita" tentang penelitian Anda. Sajikan konteks masalah, urgensi penelitiannya, dan bagaimana penelitian ini dapat memberikan dampak. Gunakan data, statistik, atau kutipan dari literatur relevan untuk memperkuat argumen Anda tentang pentingnya masalah penelitian.
+
+Dalam setiap proposal penelitian, latar belakang masalah berfungsi untuk menggambarkan konteks penelitian, memaparkan masalah yang akan diteliti, dan menyoroti pentingnya menemukan solusi atau jawaban atas masalah tersebut. Salah satu aspek kritis dari latar belakang masalah adalah penjelasan tentang urgensi penelitian. Urgensi ini tidak hanya menunjukkan kebutuhan untuk menjawab pertanyaan penelitian tetapi juga mengapa penelitian tersebut penting untuk dilakukan sekarang. Berikut adalah beberapa aspek yang dapat digunakan untuk menunjukkan urgensi penelitian:
+
+1.  Perkembangan terkini: Adanya perkembangan terkini dalam masyarakat, teknologi, atau bidang ilmu pengetahuan yang membutuhkan penelitian lebih lanjut. Misalnya, munculnya teknologi baru yang memengaruhi cara hidup manusia atau perubahan sosial yang cepat yang belum dipahami secara mendalam.
+2.  Gap pengetahuan: Keberadaan gap pengetahuan dalam literatur yang perlu diisi. Jika penelitian sebelumnya meninggalkan pertanyaan yang belum terjawab atau terdapat kontradiksi antar temuan penelitian, ini menciptakan urgensi untuk melakukan penelitian lebih lanjut.
+3.  Masalah sosial yang mendesak: Adanya masalah sosial atau kesehatan masyarakat yang mendesak, yang memerlukan solusi berbasis bukti. Misalnya, peningkatan kasus penyakit tertentu atau isu-isu lingkungan yang memengaruhi kualitas hidup.
+4.  Pengaruh terhadap kebijakan: Urgensi penelitian juga dapat berasal dari kebutuhan untuk membentuk atau merevisi kebijakan publik. Penelitian yang memberikan bukti baru dapat mendorong pembuatan kebijakan yang lebih efektif dan berbasis data.
+5.  Tekanan demografis atau lingkungan: Perubahan demografis, seperti penuaan populasi atau migrasi besar-besaran, dan perubahan lingkungan, seperti perubahan iklim, yang membutuhkan penelitian untuk memahami dampaknya dan mengembangkan strategi adaptasi atau mitigasi.
+
+Dalam menyajikan urgensi penelitian, penting bagi peneliti untuk menyampaikan bukan hanya mengapa penelitian ini penting secara teoretis, tetapi juga relevansinya dengan isu-isu praktis, sosial, ekonomi, atau kebijakan saat ini. Dengan demikian, urgensi penelitian bukan hanya tentang pentingnya topik itu sendiri tetapi juga tentang waktu dan konteks di mana penelitian tersebut dilakukan. Menekankan urgensi penelitian dalam latar belakang masalah tidak hanya menarik minat pembaca atau penguji, tetapi juga menunjukkan kesadaran peneliti terhadap dinamika terkini dan pentingnya kontribusi penelitiannya.
+
+### Rumusan Masalah
+
+Rumusan masalah harus spesifik, terukur, dan fokus. Ini adalah inti dari proposal Anda, yang menentukan arah penelitian. Jelaskan secara rinci pertanyaan penelitian yang ingin Anda jawab dan mengapa pertanyaan ini penting untuk dikaji lebih lanjut.
+
+> Contoh penulisan Rumusan Masalah:
+
+> Di era digital saat ini, media sosial telah menjadi bagian tak terpisahkan dari kehidupan sehari-hari, terutama di kalangan remaja. Meskipun media sosial memberikan manfaat dalam hal konektivitas dan akses informasi, terdapat kekhawatiran mengenai dampak negatifnya terhadap kesejahteraan psikologis remaja, termasuk peningkatan kecemasan, depresi, dan gangguan citra tubuh. Namun, penelitian yang mengkaji secara mendalam hubungan antara penggunaan media sosial dan kesejahteraan psikologis remaja masih terbatas. Oleh karena itu, perlu dilakukan studi lebih lanjut untuk mengidentifikasi sejauh mana penggunaan media sosial mempengaruhi kesejahteraan psikologis remaja dan faktor-faktor yang memoderasi dampak tersebut.
+
+### Tujuan Penelitian
+
+Sajikan tujuan penelitian Anda secara jelas dan langsung. Tujuan harus selaras dengan rumusan masalah dan memberikan gambaran tentang apa yang ingin dicapai melalui penelitian.
+
+> Contoh penulisan Tujuan Penelitian:
+>
+> Tujuan utama dari penelitian ini adalah untuk menginvestigasi dampak penggunaan media sosial terhadap kesejahteraan psikologis remaja. Secara khusus, penelitian ini bertujuan untuk:
+>
+> 1.  Mengukur tingkat penggunaan media sosial di kalangan remaja.
+> 2.  Menilai kesejahteraan psikologis remaja dengan menggunakan skala kesejahteraan psikologis yang valid dan reliabel.
+> 3.  Menentukan hubungan antara penggunaan media sosial dan kesejahteraan psikologis remaja.
+> 4.  Mengidentifikasi faktor-faktor yang memoderasi hubungan antara penggunaan media sosial dan kesejahteraan psikologis, seperti dukungan sosial, jenis kelamin, dan aktivitas fisik.
+
+### Manfaat Penelitian
+
+Di bagian ini, gambarkan kontribusi penelitian Anda terhadap ilmu pengetahuan, praktik industri dan kebijakan, atau masyarakat umum. Ini adalah kesempatan untuk meyakinkan pembaca tentang nilai tambah dari penelitian Anda.
+
+> Contoh penulisan Manfaat Penelitian:
+>
+> Penelitian ini diharapkan dapat memberikan manfaat sebagai berikut:
+>
+> 1.  Teoretis: Memberikan kontribusi pada literatur psikologi dengan memperdalam pemahaman mengenai hubungan antara penggunaan media sosial dan kesejahteraan psikologis remaja. Penelitian ini juga dapat menawarkan wawasan tentang mekanisme yang mendasari hubungan tersebut dan faktor-faktor yang memengaruhi dampak media sosial.
+> 2.  Praktis untuk individu: Memberikan informasi kepada remaja dan orang tua tentang potensi dampak negatif dan positif dari penggunaan media sosial terhadap kesejahteraan psikologis, sehingga mereka dapat membuat keputusan yang lebih terinformasi tentang penggunaan media sosial.
+> 3.  Praktis untuk pembuat kebijakan: Hasil penelitian ini dapat dijadikan dasar oleh pembuat kebijakan dan praktisi pendidikan dalam mengembangkan program dan intervensi untuk mengurangi dampak negatif media sosial pada remaja, serta memanfaatkan potensi positifnya untuk mendukung kesejahteraan psikologis.
+> 4.  Sosial: Meningkatkan kesadaran masyarakat tentang pentingnya penggunaan media sosial yang sehat di kalangan remaja dan dampaknya terhadap kesehatan mental.
+
+## Bab 2 Tinjauan Literatur
+
+Tinjauan literatur dalam proposal penelitian bukan hanya sekadar daftar pustaka yang telah dibaca. Menurut Creswell (2014), tinjauan literatur harus menunjukkan pemahaman mendalam tentang masalah yang diteliti, mengidentifikasi gap dalam literatur, dan mendukung kebutuhan untuk penelitian Anda. Proses ini memungkinkan peneliti untuk memposisikan penelitiannya dalam konteks penelitian terdahulu, serta membangun dasar teori yang kokoh untuk penelitian.
+
+Secara umum, Bab Tinjauan Literatur mencakup pembahasan mengenai:
+
+1.  Variabel penelitian: Bagian ini berisi penjelasan mengenai variabel utama dalam penelitian, termasuk variabel independen, dependen, dan moderating/mediating jika ada.
+2.  Definisi variabel/konstruk: Berisi penjelasan secara ringkas dan padat mengenai definisi konseptual variabel atau konstruk psikologis yang diteliti. Peneliti perlu menuliskan definisi dari konsep-konsep kunci yang akan digunakan dalam penelitian. Selain itu, peneliti juga menjelaskan bagaimana konsep ini diukur atau didefinisikan dalam konteks penelitian, jika menggunakan metode pengukuran khusus.
+3.  Teori utama: Uraian teori-teori kunci yang membentuk dasar konseptual untuk penelitian. Di bagian ini, peneliti perlu menjelaskan sejarah, pengembangan, dan aplikasi teori dalam penelitian sebelumnya.
+4.  Temuan studi sebelumnya: Bagian ini berisi tinjauan penelitian-penelitian penting yang telah dilakukan terkait dengan topik penelitian. Secara lebih lanjut, peneliti membahas tentang metodologi, temuan, dan kontribusi mereka terhadap bidang studi.
+5.  Studi terkait lainnya: Peneliti diharapkan mampu menjelaskan studi atau eksperimen terkait lainnya yang mungkin tidak langsung terkait dengan pertanyaan penelitian tetapi memberikan konteks atau pendukung teoretis yang relevan.
+6.  Dinamika antar variabel: Analisis dan sintesis temuan dari seluruh literatur dan studi yang telah ditinjau tersebut untuk menunjukkan bagaimana mereka berkontribusi pada pemahaman saat ini tentang topik dan mengidentifikasi celah dalam literatur. Untuk penelitian dengan metode kuantitatif, bagian ini diakhiri dengan pernyataan rumusan hipotesis penelitian. Rumusan hipotesis yang dituliskan harus berkesuaian dengan penjelasan penjelasan mengenai kaitan antar variabel yang telah dibahas. Misalnya: “Berdasarkan uraian mengenai stres kerja dan burnout yang telah disampaikan, penulis berhipotesis bahwa stres kerja berkorelasi positif dengan persepsi mengenai burnout pada pekerja di bidang kesehatan.”
+
+## Bab 3 Metode Penelitian Penulisan
+
+Bab Metode Penelitian dalam skripsi dirancang untuk memberikan pembaca pemahaman yang jelas tentang bagaimana penelitian dilakukan. Bab ini menjelaskan dengan rinci desain penelitian, pendekatan metodologis, prosedur pengumpulan data, instrumen yang digunakan, serta teknik analisis data. Berikut adalah struktur penulisan Bab 3 Metode Penelitian:
+
+### Pendekatan, rancangan, dan jenis penelitian
+
+Di bagian awal Bab Metode ini peneliti menjelaskan apakah penelitian bersifat kuantitatif, kualitatif, atau mixed methods, serta alasan pemilihan jenis penelitian tersebut. Peneliti harus dapat menguraikan justifikasi untuk desain penelitian yang dipilih, termasuk bagaimana desain ini akan membantu menjawab pertanyaan penelitian atau menguji hipotesis.
+
+### Populasi dan sampel (riset kuantitatif)
+
+Deskripsikan populasi target untuk penelitian Anda dan alasan pemilihan populasi ini. Gambarkan secara detil kriteria atau karakteristik sampel yang dilibatkan dalam penelitian. Jelaskan teknik sampling yang digunakan (misalnya, random sampling, purposive sampling) dan proses untuk memilih sampel dari populasi. Sertakan ukuran sampel dan justifikasi untuk ukuran ini berdasarkan pertimbangan statistik atau metodologis.
+
+### Situs/kasus dan partisipan/informan (riset kualitatif)
+
+Dalam penelitian kualitatif, istilah "populasi" sering digantikan dengan "kasus" atau "situs penelitian". Kasus ini bisa berupa individu, grup, organisasi, komunitas, atau bahkan suatu peristiwa. Dalam proses pengumpulan data, penelitian kualitatif berfokus pada "partisipan" atau "informan" yang dipilih untuk studi. Partisipan ini dipilih karena mereka dianggap memiliki pengalaman, pengetahuan, atau wawasan yang mendalam tentang topik penelitian. Beberapa strategi pemilihan partisipan yang umum dalam penelitian kualitatif meliputi purposive sampling, extreme or deviant case sampling, snowball sampling, dan theoretical sampling.
+
+### Variabel penelitian/Gejala penelitian/Fenomena
+
+Bagian ini menguraikan dan mendefinisikan variabel yang akan diteliti, termasuk variabel independen, dependen, mediasi, moderasi, dan kontrol jika ada. Dalam uraiannya, peneliti menjelaskan definisi konseptual dan definisi operasional dari variabel tersebut. Definisi konseptual berfokus pada penjelasan teoretis dan makna konseptual variabel, sedangkan definisi operasional berfokus pada pengukuran praktis dan cara variabel dioperasionalkan dalam penelitian. Misalnya, dalam sebuah penelitian mengenai stres, maka penulis dapat menjelaskan bahwa secara konsptual, stres didefinisikan sebagai "suatu kondisi psikologis yang dialami individu ketika ia merasakan tuntutan yang melebihi sumber daya pribadi dan sosial yang mereka miliki untuk mengatasinya." Lebih lanjut, secara operasional, stres didefinisikan sebagai "skor yang diperoleh dari jawaban kuesioner Perceived Stress Scale (PSS-10), di mana skor yang lebih tinggi menunjukkan tingkat stres yang lebih tinggi."
+
+### Hipotesis
+
+Jika penelitian Anda kuantitatif, formulasikan hipotesis yang akan diuji berdasarkan kerangka teoretis dan kajian literatur yang telah diuraikan. Peneliti tidak perlu menuliskan hipotesis nol di bagian ini karena bukan merupakan hipotesis yang diajukan oleh peneliti. Hipotesis diformulasikan sespesifik mungkin, relevan dengan variabel dan populasi penelitian, serta tidak ditulis dalam bentuk hipotesis umum. Perumusan hipotesis juga harus menggunakan definisi operasional dari variabel yang diteliti. Contoh penulisan hipotesis penelitian: “Kualitas tidur yang lebih baik berkorelasi dengan kinerja akademik yang lebih tinggi di kalangan mahasiswa semester akhir. Dalam hal ini, mahasiswa yang melaporkan skor Quality of Sleep Scale yang tinggi cenderung memperoleh nilai IPK yang tinggi juga, begitu pula sebaliknya.”
+
+Dalam riset kualitatif, peneliti tidak perlu menuliskan hipotesis penelitian karena pada prinsipnya penelitian kualitatif berfokus pada pemahaman mendalam tentang pengalaman, persepsi, dan konstruksi sosial individu atau kelompok. Tujuannya adalah untuk mengeksplorasi dan menginterpretasi makna dibandingkan untuk mengukur variabel atau menguji hipotesis secara statistik.
+
+### Instrumen penelitian
+
+Jelaskan instrumen yang digunakan untuk mengumpulkan data, seperti kuesioner, wawancara, observasi, atau instrumen lainnya. Pada penelitian kuantitatif, bagian ini juga memuat informasi detil mengenai properti psikometris alat ukur yang digunakan, mencakup reliabilitas, validitas, dan norma (jika ada) alat ukur. Penjelasan mengenai properti psikometris ini dapat dimulai dengan penyampaian kesimpulan hasil uji psikometris pada penelitian-penelitian sebelumnya.
+
+Informasi mengenai hasil adaptasi alat ukur di berbagai budaya dapat memperkaya pemahaman pembaca mengenai kualitas psikometris alat ukur. Peneliti juga perlu menjelaskan proses adaptasi yang akan dilakukan jika menggunakan alat ukur yang belum pernah diadaptasi ke budaya Indonesia sebelumnya. Jika alat ukur pernah diadaptasi dalam penelitian lain, peneliti hanya cukup mengutip informasi dari hasil pengujian adaptasi yang telah dilakukan. Terakhir, laporkan rencana proses pengujian reliabilitas dan analisis item alat ukur yang dilakukan melalui uji coba, serta modifikasi yang dilakukan berdasarkan hasil pengujian tersebut.
+
+Pada penelitian kualitatif, laporan mengenai reliabilitas berkaitan dengan transparansi dan konsistensi dalam pengumpulan dan analisis data. Peneliti perlu menjabarkan strategi yang akan dilakukan untuk menunjukkan bahwa interpretasi data dilakukan dengan cara-cara yang dapat dipertanggungjawabkan, misalnya melalui audit data atau pemeriksaan konsistensi kode data. Validitas dalam penelitian kualitatif berkaitan dengan keakuratan dan relevansi interpretasi peneliti terhadap data, sering disebut sebagai kredibilitas, transferabilitas, dependabilitas, dan konfirmabilitas. Sejumlah strategi dapat dilakukan, seperti triangulasi, member checking, dan thick description.
+
+### Prosedur
+
+Peneliti harus dapat menjelaskan secara detil prosedur pengumpulan data, termasuk langkah-langkah yang diambil, waktu dan tempat pengumpulan data, dan cara data direkam atau didokumentasikan. Hal ini dilakukan untuk memenuhi prinsip replikabilitas sebuah karya ilmiah. Artinya, peneliti harus dapat mendeskripsikan prosedur penelitian dengan sangat baik sehingga peneliti lain dapat melakukan penelitian serupa dengan prosedur yang sama demi kepentingan replikasi penelitian. Penting bagi peneliti untuk menjelaskan prosedur penelitian secara kronologis. Peneliti juga perlu menjelaskan media yang digunakan dalam proses pengumpulan data, misalnya dengan menggunakan platform online. Jika perlu, peneliti dapat menampilkan diagram prosedur untuk membantu pembaca memahami seluruh langkah dan tahapan pengumpulan data.
+
+### Metode analisis data
+
+Pada bagian ini, peneliti menuliskan rencana metode yang dipilih untuk menganilisis data yang akan dikumpulkan. Pemilihan metode ini harus disesuaikan dengan jenis datanya, serta kesesuaian dengan pertanyaan penelitian atau hipotesis yang telah dirumuskan. Selain itu, peneliti juga menjelaskan alat bantu yang digunakan dalam melakukan analisis data, misalnya, perangkat lunak. Pada metode kuantitatif, metode analisis dapat mencakup dari analisis deskriptif, seperti rata-rata dan deviasi standar, hingga analisis inferensial, seperti korelasi, regresi, uji-t, dan ANOVA. Sedangkan, pada metode kualitatif, analisis data dapat dilakukan dengan coding, analisis tematik, dan analisis naratif.
+
+## Daftar Pustaka
+
+Daftar pustaka harus mencakup semua sumber yang telah Anda kutip dalam proposal. Gunakan gaya sitasi APA terkini yang konsisten dan pastikan semua sumber terdaftar dengan benar. Anda diwajibkan menggunakan reference manager (seperti: Mendeley, EndNote, Zetero, dsb) dalam menuliskan kutipan dan daftar pustaka. Penjelasan lebih lengkap mengenai format penulisan beserta contoh penulisan Daftar Pustaka akan disampaikan dalam bagian tersendiri di Bab 6.
+
+## Kesimpulan  {.unnumbered}
+
+Penyusunan proposal penelitian yang efektif adalah langkah awal yang penting dalam proses penulisan skripsi. Proposal yang baik tidak hanya menyajikan rencana kerja yang logis dan terorganisir, tetapi juga menunjukkan pentingnya dan relevansi penelitian yang diusulkan.

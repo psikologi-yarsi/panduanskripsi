@@ -1,0 +1,229 @@
+# Teknis Penulisan dan Format Skripsi
+
+Setiap institusi memeiliki standard dan format tersendiri dalam penulisan dan pengetikan laporan penelitian. Dalam hal ini, Fakultas Psikologi YARSI juga memiliki panduan teknis yang berlaku secara umum untuk mahasiswa yang mengerjakan Skrpsi. Panduan teknis ini diharapkan dapat mendorong keseragaman luaran skripsi mahasiswa. Mahasiswa dapat mengunduh *template* format skripsi pada tautan [ini](https://drive.google.com/file/d/1Qxn2S_09NiJaV__Aqd3o9aqdDlvM-dWr/view?usp=sharing).
+
+## 6.1 Panduan Umum Teknis Penulisan Skripsi
+
+### Media dan Layout Skripsi
+
+#### Layout kertas
+
+Naskah proposal skripsi dan skripsi, baik yang dalam bentuk digital maupun cetak, ditulis di kertas ukuran A4 (210 x 297 mm) dengan orientasi *portrait*, kecuali pada bagian-bagian tertentu yang membutuhkan penulisan dengan orientasi *landscape*. Naskah skripsi cetak menggunakan kertas dengan berat 80 gram dan tidak dicetak secara bolak-balik.  Batas tepi (*margins*) pengetikan adalah masing-masing 4 cm untuk tepi atas dan tepi kiri, dan 3 cm untuk tepi kanan dan tepi bawah.
+
+#### Jarak baris
+
+-   Penulisan naskah menggunakan jarak antara dua baris dalam kalimat (spasi) dengan ukuran 1,5 (*1,5 line spacing*). Sementara itu, penggunaan spasi 1 (*single line* *spacing*) hanya dipergunakan untuk:
+-   kutipan langsung lebih dari 3 baris atau \> 40 kata;
+-   judul tabel dan judul gambar yang memerlukan lebih dari satu baris;
+-   keterangan yang menjelaskan : tabel, gambar, dan rumus;
+-   penulisan daftar pustaka;
+-   penulisan Abstrak dan Abstract;
+-   Judul anak sub-bab dan turunannya yang memerlukan lebih dari satu baris
+
+Jarak baris penulisan bagian inti proposal dan skripsi juga perlu memperhatikan hal-hal berikut ini:
+
+-   Jarak antara judul bab (*heading* level 1) dengan teks pertama yang ditulis, atau antara judul bab dan judul anak bab (*heading* level 2) adalah dua spasi
+-   Jarak antara judul anak bab dengan baris pertama teks adalah dua spasi
+-   Jarak antara baris akhir teks dengan judul anak bab berikutnya adalah dua spasi
+-   Jarak antara teks dengan tabel, gambar, grafik, diagram, atau judulnya adalah dua spasi
+-   Alinea baru diketik menjorok kedalam lima (5) ketukan dari marjin kiri teks
+
+#### Jenis Huruf
+
+Jenis huruf (*font*) yang digunakan dalam skripsi adalah Times New Romandengan ukuran 12pt, kecuali untuk penulisan judul skripsi di sampul luar dan halaman judul. Jenis dan ukuran *font* yang digunakan pada sampul dan halaman judul akan dibahas di bagian berikutnya.
+
+#### Penggunaan Huruf Cetak Miring (*Italic*)
+
+a.  Penggunaan huruf cetak miring (*italic*) dipakai apabila:
+b.  Menggunakan istilah, kata, atau singkatan yang berasal dari kata asing. Contoh: *self efficacy*, *conscientiousness*, dan lain-lain.
+c.  Judul dari sebuah buku, publikasi secara periodik, atau dalam bentuk *microfilm*. Contoh: *American Psychologist*
+d.  Nama dari spesies dan varitas. Contoh: *Macaca mulatta*
+e.  Huruf yang digunakan dalam lambang statistik atau matematika. Contoh: *t-test*; *r* = 0,2; *F*(1,53) = 3,234
+f.  Nilai tes atau skala. Contoh: MMPI *scales*
+g.  Daftar referensi dari nomer volume jurnal secara periodik. Contoh: *26*, 47-67
+
+### Format Sampul (Cover) Luar 
+
+Sampul skripsi dibuat dari kertas buffalo atau yang sejenis dan diperkuat dengan karton dan dilapisi plastik (*hardcover*). Tulisan yang dicetak dalam sampul harus sama dengan tulisan pada halaman judul dengan menggunakan tinta berwarna emas. Sampul skripsi berwarna ungu, disesuaikan dengan lambang Fakultas Psikologi Universitas YARSI. Format penulisan sampul luar sesuai dengan ketentuan berikut:
+
+1.  Judul dan Anak Judul
+
+    a.  Judul skripsi ditulis di baris paling atas, dengan huruf kapital (*uppercase*) dengan menggunakan tipe huruf (*font type*) Times New Roman ukuran 14 pt. Jarak dari tepi atas kertas sekurang-kurangnya 6 cm.
+    b.  Judul yang panjang ditulis menjadi dua baris atau lebih, dengan pemotongan judul yang logis, sesuai dengan kaidah Bahasa Indonesia. Jarak antara kedua baris judul diatur agak rapat.
+    c.  Sub Judul (jika ada) ditulis dibawah judul, dengan huruf kapital semua, ukuran *font* 13 pt, dengan diberi jarak dari judul sekitar 1,5 cm dari baris judul yang paling bawah.
+    d.  Anak judul yang panjang ditulis menjadi dua baris atau lebih, dengan pemotongan judul yang logis, sesuai dengan kaidah Bahasa Indonesia. Jarak antara kedua baris diatur agak rapat.
+    e.  Judul maupun anak judul tidak diakhiri dengan tanda titik (.).
+    f.  Jarak spasi Judul adalah 1 spasi.
+
+2.  Tulisan SKRIPSI
+
+    a.  Tulisan SKRIPSI ditulis dengan *uppercase*, diletakkan di tengah, dengan jenis dan besar huruf yang sama dengan anak judul.
+
+    b.  Letak tulisan SKRIPSI sekitar 2,5 cm dibawah anak judul. Kalau tidak ada anak judul, letak tulisan SKRIPSI sekitar 5 cm dari baris judul yang paling bawah.
+
+    c.  Di bawah tulisan SKRIPSI, dengan jarak sekitar 1 cm, dicantumkan kalimat seperti berikut:
+
+        ```{=latex}
+        \begin{center} 
+        \textbf{SKRIPSI}
+
+        Diajukan untuk menempuh Ujian Sarjana Strata 1
+        \noindent pada Fakultas Psikologi
+        \end{center} 
+        ```
+
+3.  Nama dan NPM Mahasiswa
+
+    a.  Nama mahasiswa ditulis dengan *uppercase*, diletakkan di tengah dengan jenis dan besar huruf yang sama dengan anak judul.
+    b.  Letak tulisan nama mahasiswa sekitar 2,5 cm di bawah tulisan Universitas YARSI
+    c.  NPM mahasiswa ditulis dengan huruf kapital semua, diletakkan dI tengah di bawah nama mahasiswa, dengan jenis dan besar huruf yang sama dengan anak judul.
+    d.  Jarak spasi untuk Nama mahasiswa dan NPM adalah 1 spasi. Contoh:
+
+4.  Logo Universitas YARSI
+
+    Logo YARSI bergaris tengah 3,5 cm. Titik tengahnya terletak di tengah-tengah di antara baris NPM mahasiswa dengan baris nama universitas (Universitas YARSI). File gambar Logo YARSI dapat diunduh di [sini](https://drive.google.com/file/d/11trNCsQdbG1ErnliS7XHTR6DsUtex-Xv/view?usp=sharing).
+
+5.  Nama Universitas, Fakultas, Kota, dan Tahun Penyusunan
+
+    a.  Tulisan nama universitas (Universitas YARSI), fakultas, kota, dan tahun penyusunan skripsi ditulis dengan *uppercase*, cetak tebal, dengan jenis dan besar huruf yang sama dengan anak judul, disusun secara berurutan per baris, dengan jarak 1,5 spasi
+    b.  Tahun penyusunan skripsi yang ditulis paling bawah, diletakkan sekitar 3,5 cm dari tepi bawah kertas. Contoh:
+
+Penempatan tulisan pada sampul luar (yang sama dengan halaman judul), harus memperhatikan keseimbangan jarak margin atas, bawah, kiri, dan kanan. Contoh format *cover* dan halaman judul skripsi dapat dilihat di [Lampiran 6](#_Lampiran_6_Contoh).
+
+## 6.2 Penulisan Bagian Awal Skripsi:
+
+### Penomoran Halaman
+
+Penomoran halaman pada bagian awal skripsi mengikuti panduan berikut ini:
+
+a.          Penomoran halaman bagian awal skripsi, mulai dari Kata Pengantar sampai dengan halaman Daftar Lampiran, menggunakan angka romawi kecil
+
+b.         Halaman Judul hingga Halaman Pengesahan tidak diberi nomor urut halaman, tetapi diperhitungkan sebagai halaman i hingga halaman iv (nomor halaman tersebut tidak diketik).
+
+c.          Penulisan nomor halaman dimulai dari Halaman Kata Pengantar (halaman v)
+
+d.         Halaman Abstrak sampai dengan halaman Daftar Lampiran diberi nomor dengan angka romawi kecil yang merupakan kelanjutan dari Halaman Judul hingga Halaman Pengesahan
+
+e.          Nomor halaman diletakkan pada bagian bawah persis di tengah-tengah (*center alignment*)
+
+### Penulisan Judul Bagian
+
+a.  
+
+b.  Tiap judul *heading* level 1 diketik di halaman baru dengan huruf kapital hanya pada awal kata. Penulisan ditempatkan di tengah (*center alignment*), dicetak tebal (*bold*), dan tidak diberi garis bawah.
+
+c.  
+
+d.  Judul *heading* level 1 pada bagian awal skripsi mencakup: 
+
+e.  
+
+·         Lembar Pernyataan
+
+·         Halaman Persetujuan Pembimbing
+
+·         Halaman Pengesahan
+
+·         Halaman Kata Pengantar
+
+·         Halaman Ucapan Terima Kasih
+
+·         Halaman Abstrak
+
+·         Halaman Abstract
+
+·         Daftar Isi
+
+·         Daftar Tabel
+
+·         Dafter Gambar
+
+·         Daftar Lampiran
+
+### Penulisan Lembar Pernyataan
+
+Judul Lembar Pernyataan ditulis dengan huruf besar (*uppercase*), cetak tebal (*bold*), spasi 1,5, dan terletak di tengah (*center alignment*). Pernyataan orisinalitas diketik dengan jarak dua spasi dari judul Lembar Pernyataan. Pernyataan orisinalitas skripsi dituliskan sebagai berikut:
+
+“Saya menyatakan bahwa skripsi yang saya susun sebagai syarat memperoleh gelar sarjana ini merupakan karya tulis saya sendiri. Adapun bagian-bagian tertentu dalam penlisan skripsi ini saya kutip dari hasil karya orang lain yang telah dituliskan sumbernya secara jelas sesuai dengan norma, kaidah, dan etika penulisan ilmiah. Saya bersedia menerima sanksi yang sesuai dengan peraturan perundangan yang berlaku apabila di kemudian hari ditemukan bukti tindak plagiarisme dalam skripsi ini.”
+
+Kota dan tanggal penandatanganan surat pernyataan diketik berjarak dua spasi di bawah paragraf pernyataan dengan format rata kanan. Setelah itu, penulisan “Yang menyatakan,” ditulis dengan jarak satu spasi di bawah penulisan kota dan tanggal, kemudian diikuti dengan ruang tanda tangan sebesar 3 spasi, lalu penulisan nama lengkap dan NPM mahasiswa. Mahasiswa menandatangani Lembar Pernyataan di atas meterai Rp10.000 pada bagian yang telah disediakan.
+
+### Penulisan Halaman Persetujuan Pembimbing
+
+1.       Judul skripsi diketik dengan jarak 4 cm dari tepi kertas bagian atas. Seluruh kalimat judul diketik dengan huruf kapital, dengan jarak antar baris yang rapat.
+
+2.      Baris sub judul diketik di bawah judul, dengan jarak sekitar 1 cm dari baris terakhir judul. Semua diketik dengan huruf kapital.
+
+3.      Nama mahasiswa diketik di bawah sub judul, dengan jarak sekitar 1 cm dari baris terakhir sub judul. Semua diketik dengan huruf kapital
+
+4.      NPM diketik di bawah nama mahasiswa, dengan jarak satu spasi.
+
+5.      Waktu pemberian persetujuan hanya ditulis bulan dan tahunnya, diketik di belakang kata ‘JAKARTA’.
+
+6.      *Lay out* ‘menyetujui’, ‘Pembimbing Utama’, diatur dengan memperhatikan keseimbangan pada halaman ini. Nama pembimbing berjarak 4 cm dari tepi kertas bagian bawah.
+
+### Penulisan Halaman Pengesahan
+
+Judul Halaman Pengesahan ditulis dengan huruf besar (*uppercase*), cetak tebal (bold), dan terletak di tengah (*center alignment*). Halaman pengesahan diketik dengan jarak dua spasi dari judul Halaman Pengesahan.
+
+Halaman Pengesahan diawali dengan pernyataan “Skripsi ini diajukan oleh”, lalu diikuti dengn identitas penulis yang meliputi: Nama penulis, NPM, Program Studi (Psikologi) dan Judul Skripsi. Pernyataan dan identitas tersebut dituliskan pada baris berbeda, rata kiri dan berjarak satu spasi antarbaris.
+
+Berikan jarak 2 spasi antara identitas penulis dengan pernyataan pengesahan skripsi, yang dituliskan sebagai berikut:
+
+“Telah berhasil dipertahankan di hadapan Dewan Penguji dan diterima sebagai bagian persyaratan yang diperlukan untuk memperoleh gelar Sarjana Psikologi pada Fakultas Psikologi Universitas YARSI, pada tanggal ...... (lengkapi dengan tanggal ujian skripsi Anda).”
+
+Berikan jarak 3 spasi lalu tuliskan “DEWAN PENGUJI” dengan huruf besar (*uppercase*), dan terletak di tengah (*center alignment*). Beri jarak 3 spasi lalu tuliskan daftar nama dewan penguji skripsi dengan mencantumkan nama, ruang untuk membubuhkan tanda tangan dan posisi mereka pada proses persidangan (apakah sebagai ketua atau anggota dewan penguji).
+
+Pada bagian paling bawah halaman pengesahan dilengkapi dengan tanda tangan Dekan sebagai pihak yang mengetahui dan mengesahkan skripsi. Tulisan “Mengetahui,” ditulis dengan jarak dua spasi di bawah penulisan nama dan tandatangan penguji ketiga, kemudian diikuti dengan ruang tanda tangan sebesar 4 spasi, lalu penulisan nama lengkap Dekan. Seluruh dewan penguji dan dekan menandatangani Lembar Pengesahan dan bubuhkan cap fakultas pada tandatangan dekan sebagai bukti keabsahan skripsi.
+
+### Penulisan Halaman Kata Pengantar dan Ucapan Terimakasih
+
+Halaman Kata Pengantar dan Ucapan Terimakasih dituliskan dengan ketentuan berikut:
+
+1.       Jarak spasi dalam pengetikan Kata Pengantar dan Ucapan Terimakasih adalah satu spasi.
+
+2.      Judul ditulis dengan huruf besar (*uppercase*), cetak tebal (*bold*), dan terletak di tengah (*center alignment*). Jarak antara judul dengan teks pertama Kata Pengantar dan Ucapan Terimakasih adalah dua spasi.
+
+3.      Penulisan Kata Pengantar dan Ucapan Terimakasih masing-masing tidak lebih dari satu halaman (maksimal satu halaman).
+
+### Penulisan Halaman Abstrak dan Abstract
+
+Pengetikan halaman Abstrak dan *Abstract* perlu memperhatikan beberapa hal di bawah ini:
+
+1.       Jarak spasi dalam pengetikan abstrak adalah satu spasi
+
+2.      Jarak antara judul Abstrak dan *Abstract* dengan teks pertama abstrak adalah dua spasi
+
+3.      Penulisan abstrak penelitian sedapat mungkin tercakup dalam satu alinea saja, atau setidaknya tidak lebih dari 2 alinea
+
+4.      Jika jumlah abstrak lebih dari satu alinea, jarak antara alinea yang satu dengan alinea yang lain adalah satu spasi
+
+### Penulisan Daftar Isi, Daftar Tabel, Daftar Gambar, dan Daftar Lampiran
+
+Pengetikan halaman Daftar Isi, Daftar Tabel, Daftar Gambar dan Daftar Lampiran dituliskan dengan ketentuan berikut:
+
+1.       Jarak spasi dalam pengetikan isi dari masing-masing daftar adalah satu spasi.
+
+2.      Jarak antara judul dan isi dari masing-masing daftar isi, tabel, gambar dan lampiran adalah dua spasi.
+
+Format dan contoh penulisan bagian awal skripsi dapat dilihat pada [Lampiran 7](#_Lampiran_7_Contoh).
+
+## 6.3 Penulisan Bagian Inti Skripsi
+
+### Penomoran Bab
+
+Penomoran Bab dalam bagian inti skripsi ditulis menggunakan angka Arab diikiuti dengan tanda titik (.). Judul Bab (*heading* level 1) ditulis menyambung dengan nomor Bab dengan huruf kapital dan diletakkan di bagian tengah-atas halaman, dengan jenis huruf tebal (*bold*). Sub Bab (*heading* level 2) diberi nomor dengan menggunakan angka Arab, diikuti dengan tanda titik, terletak di kiri halaman, dengan jenis huruf tebal. Judul sub Bab (*heading* level 2) ditulis dengan menggunakan kapitalis huruf awal kata.
+
+Penomoran Anak Sub Bab dengan menggunakan angka Arab, diikuti dengan tanda titik dan diletakkan di rata kiri dari halaman. Judul Anak Sub Bab (*heading* level 3) ditulis dengan menggunakan kapitalisasi huruf awal dengan jenis huruf tebal. Penomoran Anak-Anak Sub Bab dengan menggunakan huruf kecil, diikuti dengan tanda titik. Judul Anak-Anak Sub Bab (*heading* level 4) ditulis dengan kapitalis huruf awal kata, dan menggunakan indensi tunggal. Jenis huruf yang digunakan regular. Penulisan *heading* 5 dan seterusnya tidak mengunakan menggunakan format penomoran, judul bab ditulis rata kiri dan cetak miring (*italic*) diakhiri dengan titik.
+
+Penulisan setiap judul bab dan anak bab menggunakan menu *heading styles* pada micosoft word dengan mengikuti ketentuan *heading* dan *subheading* *level* menurut Format APA. Terdapat lima *level heading* (sub bab) menurut APA: Level 1 (Bab utama), Level 2 (anak bab), Level 3 (anak bab dari level 2) dan seterusnya hinggal Level 5. Penggunaan heading level pada tulisan bergantung pada kompleksitas tulisan. Untuk memahami lebih lanjut mengenai format tiap level menurut Format APA dan contohnya, lihat Tabel 1.
+
+### Penomoran Halaman
+
+Pemberian nomor pada bagian inti skripsi ditetapkan sebagai berikut:
+
+a.         Penomoran bagian inti skripsi, mulai dari Bab 1 Pendahuluan sampai dengan Bab 6 Kesimpulan dan Saran, menggunakan angka Arab.
+
+b.         Pada tiap halaman yang memiliki judul bab, mulai dari Bab 1 Pendahuluan hingga Bab 6 Kesimpulan dan Saran, nomor halaman diletakkan pada bagian bawah (*footer*) persis di tengah, berjarak tiga spasi dari marjin bawah (baris akhir teks pada halaman itu)
+
+c.         Nomor halaman selain yang dijelaskan pada poin b di atas diletakkan pada bagian atas sebelah kanan, berjarak tiga spasi dari margin atas (baris pertama teks pada halaman itu) dan angka terakhir nomor halaman itu lurus dengan *margin* kanan.

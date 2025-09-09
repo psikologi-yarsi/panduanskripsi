@@ -10,3 +10,21 @@
 \makeatletter
 \AtBeginDocument{\let\maketitle\relax}
 \makeatother
+
+% --- Pastikan judul bab & isi berada di halaman yang sama (KOMA-Script) ---
+%\KOMAoptions{titlepage=false,open=any} % redundan dengan YAML, tapi aman dipaksa di runtime
+
+% Pangkas jeda atas/bawah judul bab agar tidak “lompat” ke halaman berikut
+%\RedeclareSectionCommand[
+ % beforeskip=-1.2\baselineskip, % negatif = teks langsung menyusul di halaman yang sama
+  %afterskip=.8\baselineskip,
+  %afterindent=false
+%]{chapter}
+
+\usepackage{afterpage}
+\graphicspath{{images/}} 
+
+\usepackage{fontspec}
+\setmainfont{Georgia}
+\setsansfont{Georgia}
+\setmonofont{Courier New} % monospaced font alternatif, karena Georgia tidak punya varian mono

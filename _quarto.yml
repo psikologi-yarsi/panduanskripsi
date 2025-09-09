@@ -5,7 +5,10 @@ project:
 book: 
   chapters: 
     - index.qmd
-    - pengenalan.qmd
+    - 1_pengenalan.qmd
+    - 2_kurikulum.qmd
+    - 3_topik.qmd
+    - 4_strukturproposal.qmd
     
 lang: id
 bibliography: references.bib
@@ -17,10 +20,13 @@ format:
     css: styles.css
     toc: false
   pdf:
-    documentclass: scrreprt
-    geometry: margin=1in
-    pdf-engine: xelatex
+    documentclass: scrbook
+    geometry: "paperwidth=8.27in, paperheight=11.69in, top=0.8in, bottom=1in, left=1in, right=1in"
+    pdf-engine: lualatex
     toc-title: "Daftar Isi"
     include-in-header: header.tex        # matikan \maketitle + paket
-    include-before-body: frontmatter.tex # cover + title + verso
+    #include-before-body: frontmatter.tex # cover + title + verso
     keep-tex: true
+    #classoption:
+     # - open=any             # cegah sisipan halaman kosong "openright"
+    #  - titlepage=false      # judul bab & isi di halaman yang sama

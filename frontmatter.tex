@@ -1,13 +1,13 @@
-% (opsional) gunakan penomoran romawi untuk front matter
+% Penomoran Romawi untuk front matter
 \pagenumbering{roman}
 
-% --- COVER ---
-% Jika Anda punya cover.pdf (1 halaman)
-\includepdf[pages=1,fitpaper=true]{cover.pdf}
+% --- COVER (tanpa header/footer & nomor halaman) ---
+\includepdf[pages=1,fitpaper=true,pagecommand={}]{cover.pdf}
 \cleardoublepage
 
 % --- HALAMAN JUDUL ---
 \begin{titlepage}
+\thispagestyle{empty}
 \centering
 \vspace*{2.5cm}
 {\fontsize{22pt}{26pt}\selectfont\bfseries Buku Panduan\\[2mm]}
@@ -29,14 +29,12 @@
 \end{titlepage}
 \cleardoublepage
 
-% --- BALIK HALAMAN JUDUL (verso) ---
-\thispagestyle{empty}
-\vspace*{\fill}
-\begin{center}
+% --- BALIK HALAMAN JUDUL (verso), kosong tanpa header/footer ---
+\clearpage
+\noindent{\Large\bfseries Informasi Publikasi}\par
+\vspace{0.8\baselineskip}
 \textit{Buku Panduan Penulisan \& Penyusunan Skripsi}\\
 Fakultas Psikologi Universitas YARSI\\[6pt]
 Hak Cipta © 2025 Fakultas Psikologi Universitas YARSI\\
 ISBN: (isi bila ada)
-\end{center}
-\vspace*{\fill}
-\clearpage
+\cleardoublepage

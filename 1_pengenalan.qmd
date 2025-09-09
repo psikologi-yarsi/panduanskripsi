@@ -2,15 +2,15 @@
 
 Skripsi merupakan sebuah karya tulis ilmiah yang disusun oleh mahasiswa sebagai salah satu syarat untuk memperoleh gelar sarjana. Skripsi tidak hanya merefleksikan kemampuan akademik mahasiswa, tetapi juga kemampuan mereka dalam menerapkan teori ke dalam praktik penelitian yang konkret. Dalam proses pembelajaran di perguruan tinggi, penulisan skripsi berperan penting dalam pengembangan keterampilan penelitian, kritis, dan analitis mahasiswa. Menurut Sugiyono (2018), skripsi merupakan penelitian ilmiah yang sistematis dan mendalam pada suatu fenomena atau masalah dengan tujuan mengembangkan dan menguji teori-teori yang ada dalam disiplin ilmu tertentu.
 
-## 1.1 Tujuan Skripsi
+## Tujuan Skripsi
 
 Tujuan utama dari penulisan skripsi adalah untuk menunjukkan bahwa mahasiswa mampu melakukan penelitian yang independen, sistematis, dan ilmiah. Selain itu, skripsi juga bertujuan untuk menguji kemampuan mahasiswa dalam menyusun argumen yang logis, mengelola dan menganalisis data, dan menyajikan hasil penelitian secara tertulis yang memenuhi standar akademik. Menurut Creswell (2014), melalui skripsi, mahasiswa diharapkan dapat mengidentifikasi masalah penelitian, merumuskan hipotesis, mengumpulkan dan menganalisis data, serta menyimpulkan dan merekomendasikan solusi terhadap masalah yang diteliti.
 
-## 1.2 Perbedaan Skripsi, Tesis, dan Disertasi
+## Perbedaan Skripsi, Tesis, dan Disertasi
 
 Penting untuk memahami perbedaan antara skripsi, tesis, dan disertasi, karena ketiganya merupakan karya tulis ilmiah yang berbeda, terutama dalam hal tujuan, kedalaman analisis, dan tingkat pendidikan. Skripsi ditulis oleh mahasiswa sarjana sebagai bagian dari proses penyelesaian studi mereka. Tesis merupakan karya tulis ilmiah yang disusun oleh mahasiswa pascasarjana (magister) dan lebih kompleks serta mendalam dibandingkan skripsi. Disertasi adalah karya ilmiah yang disusun oleh mahasiswa doktoral dan merupakan kontribusi original terhadap pengetahuan yang ada, membutuhkan penelitian yang lebih komprehensif dan mendalam. Kumar (2014) menjelaskan bahwa tingkat kedalaman dan kebaruan penelitian meningkat secara signifikan dari skripsi ke tesis dan dari tesis ke disertasi.
 
-## 1.3 Proses Penulisan Skripsi
+## Proses Penulisan Skripsi
 
 Proses penulisan skripsi umumnya melibatkan beberapa tahap, mulai dari pemilihan topik, penyusunan proposal, pengumpulan data, analisis data, hingga penulisan laporan skripsi. Proses ini membutuhkan waktu, dedikasi, dan upaya yang signifikan dari mahasiswa. Bazeley (2013) menekankan pentingnya manajemen waktu dan organisasi yang baik dalam proses penulisan skripsi untuk memastikan bahwa mahasiswa dapat menyelesaikan skripsinya dengan efisien dan efektif.
 
@@ -20,6 +20,6 @@ Pengumpulan data merupakan tahap penting dalam penulisan skripsi, dimana mahasis
 
 Penulisan laporan skripsi merupakan tahap akhir dari proses penulisan skripsi. Laporan ini harus menyajikan hasil penelitian secara jelas, logis, dan sistematis, serta memenuhi standar penulisan ilmiah. Laporan skripsi umumnya terdiri dari beberapa bab, termasuk pendahuluan, tinjauan pustaka, metodologi penelitian, hasil dan pembahasan, serta kesimpulan dan saran.
 
-## Kesimpulan
+## Kesimpulan {.unnumbered}
 
 Skripsi adalah sebuah proses penelitian ilmiah yang membutuhkan dedikasi, disiplin, dan kemampuan analitis yang tinggi dari mahasiswa. Melalui penulisan skripsi, mahasiswa diharapkan dapat mengembangkan kemampuan penelitian mereka dan memberikan kontribusi terhadap pengembangan ilmu pengetahuan. Dengan pemahaman yang baik tentang tujuan, perbedaan dengan tesis dan disertasi, serta proses penulisan skripsi, mahasiswa dapat menavigasi tantangan ini dengan lebih baik dan mencapai kesuksesan dalam penelitian mereka.
