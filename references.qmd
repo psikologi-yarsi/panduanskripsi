@@ -1,4 +1,4 @@
-# References {.unnumbered}
+# Daftar Pustaka {.unnumbered}
 
 ::: {#refs}
 :::
