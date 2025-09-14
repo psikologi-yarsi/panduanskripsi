@@ -70,7 +70,7 @@ Di bagian ini, gambarkan kontribusi penelitian Anda terhadap ilmu pengetahuan, p
 
 ## Bab 2 Tinjauan Literatur
 
-Tinjauan literatur dalam proposal penelitian bukan hanya sekadar daftar pustaka yang telah dibaca. Menurut Creswell (2014), tinjauan literatur harus menunjukkan pemahaman mendalam tentang masalah yang diteliti, mengidentifikasi gap dalam literatur, dan mendukung kebutuhan untuk penelitian Anda. Proses ini memungkinkan peneliti untuk memposisikan penelitiannya dalam konteks penelitian terdahulu, serta membangun dasar teori yang kokoh untuk penelitian.
+Tinjauan literatur dalam proposal penelitian bukan hanya sekadar daftar pustaka yang telah dibaca. Menurut @Creswell2014, tinjauan literatur harus menunjukkan pemahaman mendalam tentang masalah yang diteliti, mengidentifikasi gap dalam literatur, dan mendukung kebutuhan untuk penelitian Anda. Proses ini memungkinkan peneliti untuk memposisikan penelitiannya dalam konteks penelitian terdahulu, serta membangun dasar teori yang kokoh untuk penelitian.
 
 Secara umum, Bab Tinjauan Literatur mencakup pembahasan mengenai:
 
